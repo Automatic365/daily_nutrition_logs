@@ -1,0 +1,19 @@
+name: Trigger Dashboard Rebuild
+
+on:
+  push:
+    paths:
+      - 'daily_log.md'
+    branches:
+      - main
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Weight Cut Dashboard Rebuild
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.DASHBOARD_PAT }}
+          repository: Automatic365/weight_cut_dashboard
+          event-type: update_logs
