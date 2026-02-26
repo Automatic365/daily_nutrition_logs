@@ -2925,3 +2925,190 @@ See you at check-in.
 - This is how cuts succeed
 
 Check in tomorrow morning.
+
+## 2026-02-24 — Tuesday
+
+### Confirmation
+- Confirmed: Today is **Tuesday, February 24, 2026**.
+- **Tier:** Linear (Muay Thai Day)
+- **14-Day Linear Experiment:** Day 13 of 14
+
+### Daily Handover — 2/24/26
+
+### Body Metrics
+- **Weight:** 164.5 lbs
+- **Waist (navel):** 31.61"
+- **+2":** 32.99"
+- **−2":** 32.64"
+- **Sleep:** 7h14m (good)
+- **Energy:** 8/10 (Biocharge 87 = high readiness)
+- **Calipers:** Not taken
+- Trend: Waist stable-low range. Weight stable mid-164s. No regression.
+
+### Nutrition Breakdown
+#### Meal 1
+- PB whey shake (exact as prescribed)
+- **Score:** 99%
+
+#### Meal 2
+- 8 oz chicken + tortilla + veg + fat-free cheese
+- **Score:** 100%
+
+#### Bridge
+- Banana + 3 dates
+- Slight deviation from strict protein bridge, but strategic for training
+- **Score:** 90%
+
+#### Dinner
+- 8 oz chicken + large veg, no oil, no tortilla
+- **Score:** 100%
+
+#### Night
+- Cottage cheese only
+- Skipped chips
+- 2 small bites cake (intentional, controlled)
+- **Score:** 92%
+
+### Intake Estimate (Raw)
+- ~1,680–1,720 kcal
+- Protein: ~240g+
+
+After adjustment rule:
+- Calories evaluated: ~2,100–2,150
+- Credited protein: ~190–195g
+- Protein floor cleared
+
+### Training Log
+#### Lift
+- Back + Biceps synergy sets
+- Within structure
+- No volume creep
+
+#### Muay Thai
+- 1h33m
+- Max HR 181
+- Training Load 125
+- Intensity: 8/10
+- High quality session
+
+### Hydration
+- 128 oz logged
+- Electrolytes used
+- No hypoglycemia reported
+
+### Daily Adherence
+- Meal average: **96%**
+
+#### Adherence Score (0–10 scale)
+- Start: 10
+- No fast broken
+- Protein hit
+- Pre-training carbs correct
+- Vegetables included
+- **Final Adherence Score: 10/10**
+- Corrected chips
+- Limited cake
+- No escalation
+- Behavioral control
+
+### Alerts
+- None triggered
+- No hypoglycemia
+- No recovery debt
+- No muscle-loss indicators
+
+### Tomorrow — Wednesday
+- **Tier:** PSMF Day
+- 1,100–1,200 kcal
+- 180–200g protein
+- Minimal carbs
+- Minimal fats
+- No lifting
+- Shadow boxing only (moderate intensity)
+- Carb withdrawal likely mild because of today’s banana/dates
+- High protein
+- High veg
+- Zero novelty
+
+### Final Assessment
+- Today was disciplined
+- You tested flexibility; control held
+- Sleep 7.5+ hours
+- We compress tomorrow
+
+## 2026-02-25 — Wednesday
+
+### Consolidated Handover — Wednesday 2/25
+
+### Body Metrics
+- **Weight:** 163.8 lbs
+- **Waist:** 31.39"
+- **Abdomen (navel):** 32.60"
+- **Below:** 32.51"
+- **Trend:** Waist and below trending down this week; scale stable in low 163–164 range. No stall. Steady recomposition.
+
+### Recovery & Readiness
+- **Sleep:** 6h57m (fair)
+- **HRV:** 59
+- **Biocharge:** 79 (solid)
+- **Hydration:** 128 oz
+- Recovery acceptable (not elite, not compromised)
+- Training matched readiness appropriately
+
+### Activity
+- 1.17 mile walk
+- ~114 kcal
+- Avg HR 88 bpm
+- Low-stress, recovery-supportive movement
+- Correct choice before a higher-variance day
+
+### Nutrition
+#### Unadjusted Totals
+- ~1,360 kcal
+- ~222g protein
+
+#### Adjusted Totals
+- ~1,700 kcal
+- ~178g protein
+
+#### Meals
+- M1 protein
+- 10 oz chicken + broccoli
+- Bridge: 5 oz chicken + cucumber/onion
+- Dinner: 6.5 oz chicken stuffed peppers (fat-free cheese, taco sauce)
+- No oils
+- Minimal carbs
+- Minimal fats
+- No dessert
+- No grazing
+- Protein stacked slightly high, but drift was controlled and clean
+
+### Adherence Score (15-point scale)
+- **Nutrition:** 4.5 / 5
+- **Activity:** 4 / 5
+- **Recovery:** 4 / 5
+- **Total:** 12.5 / 15 (A-)
+- Disciplined compression day: structured, not extreme, not chaotic
+
+### Pattern Watch
+- Slight protein overshoot before planned indulgence days
+- Likely control response
+- Safe, but worth noting
+
+### Forward Plan (Great Wolf Lodge Day)
+#### Non-negotiables
+1. Protein first at every meal.
+2. One intentional dessert.
+3. No grazing.
+4. No liquid calories.
+5. 7k+ steps.
+6. Back to structure the next morning; no emotional correction fast unless planned.
+
+### Big Picture
+- Maintaining 163–164 range
+- Keeping waist ~31.3–31.6
+- Holding performance
+- Avoiding spirals
+- Durable cutting, not crash dieting
+- No white-knuckling; execution held
+- Tomorrow is a decision day
