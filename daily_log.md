@@ -3525,3 +3525,120 @@ Current pattern: volatility around flat baseline.
 Fast executed with discipline.
 
 Sleep.
+
+## 2026-03-02 — Monday
+
+# Daily Handover — Monday
+
+**Tier:** Linear
+
+---
+
+## Measurements
+
+* **Weight:** 161.7 lbs
+* **Waist (+2″):** 31.11″
+* **Abdomen (navel):** 31.87″
+* **Below (−2″):** 32.13″
+* **Sleep:** 7h 55m
+* **HRV:** 60
+* **Biocharge:** 87
+
+---
+
+## Training
+
+Strength executed per locked schedule
+
+* Chest: 1 synergy set
+* Triceps: 1 synergy set
+* Contained under 10 minutes
+
+Range Sentinel Week 1 Solo Session
+
+* 4 heavy bag rounds (Volume format)
+* Lead teep upper-range volume
+* Rear teeps drove bag
+* Balance leak corrected
+* Energy 7–8
+* Headache resolved after carbs
+
+---
+
+## Nutrition
+
+Structure aligned with 14-Day Linear Plan
+
+Meals:
+
+* M1: Whey + PB + psyllium (+ creatine + beta-alanine)
+* Lunch: 8 oz chicken + 1 cup rice + vegetables
+* Bridge: 1 can tuna + cucumbers + onions
+* Dinner: ~6 oz chicken + fat-free cheese + peppers
+* Night ritual: Cottage cheese + collagen + 1 tbsp chips
+* Extra: 1 bite cinnamon bun
+
+True Intake Estimate:
+
+* Calories: ~1,790
+* Protein: ~233g
+
+Adjusted (Required Reporting Rule):
+
+* Calories: 2,240
+* Protein: 186g
+
+---
+
+## Hydration
+
+* ~100 oz confirmed
+
+---
+
+## Adherence
+
+* Structured meals
+* No grazing
+* Dessert measured
+* Protein exceeded target
+* Indulgence contained
+
+Daily Adherence Score: 93
+Adherence Score (0–10): 9
+
+No alerts triggered.
+
+---
+
+## Tomorrow — Tuesday (Linear + Muay Thai)
+
+* Back + Biceps synergy sets
+* Solo + Class per Range Sentinel schedule
+* Carbs timed pre-training
+* Hydration ≥120 oz
+
+---
+
+### App Parse Block
+
+Status: Pass
+Weight: 161.7
+Abdomen (navel): 31.87
++2": 31.11
+Below: 32.13
+Sleep: 7h 55m
+Calories: 2240
+Protein: 186g
+
+* Daily Adherence Score: 93
+* Boss Mode: none
+* Boss Name: null
+* Boss Outcome: none
+
+This mapping now strictly follows your definitions:
+
+Abdomen = navel
+Waist = +2″
+
+Locked.
