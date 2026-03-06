@@ -1,4 +1,4 @@
-import { beforeEach, describe, expect, it, vi } from "vitest";
+import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 
 const mockIsAuthorizedRequest = vi.fn();
 const mockReadDailyLogFile = vi.fn();
@@ -18,10 +18,16 @@ vi.mock("@/lib/github", () => ({
 import { POST } from "@/app/api/logs/submit/route";
 
 const validMarkdown = "## 2026-03-06 — Friday\n\n### Tier\nTier 1";
+const bodyOnlyMarkdown = "### Tier\nTier 1";
 
 describe("POST /api/logs/submit", () => {
   beforeEach(() => {
     vi.clearAllMocks();
+  });
+
+  afterEach(() => {
+    vi.useRealTimers();
+    delete process.env.APP_TIMEZONE;
   });
 
   it("rejects unauthenticated requests", async () => {
@@ -62,6 +68,37 @@ describe("POST /api/logs/submit", () => {
     expect(response.status).toBe(200);
     expect(payload.action).toBe("appended");
     expect(payload.commitSha).toBe("1234567890abcdef");
+    expect(mockWriteDailyLogFile).toHaveBeenCalledTimes(1);
+  });
+
+  it("prepends current-date header when missing", async () => {
+    vi.useFakeTimers();
+    vi.setSystemTime(new Date("2026-03-06T14:00:00.000Z"));
+    process.env.APP_TIMEZONE = "UTC";
+
+    mockIsAuthorizedRequest.mockReturnValue(true);
+    mockReadDailyLogFile.mockResolvedValue({
+      content: "## 2026-03-05 — Thursday\n\n### Tier\nTier 2\n",
+      sha: "sha-one"
+    });
+    mockWriteDailyLogFile.mockResolvedValue({
+      commitSha: "headeradded123",
+      commitUrl: "https://github.com/example/repo/commit/headeradded123"
+    });
+    mockIsConflictError.mockReturnValue(false);
+
+    const response = await POST(
+      new Request("http://localhost/api/logs/submit", {
+        method: "POST",
+        body: JSON.stringify({ markdown: bodyOnlyMarkdown })
+      })
+    );
+
+    const payload = (await response.json()) as { date?: string; action?: string };
+
+    expect(response.status).toBe(200);
+    expect(payload.date).toBe("2026-03-06");
+    expect(payload.action).toBe("appended");
     expect(mockWriteDailyLogFile).toHaveBeenCalledTimes(1);
   });
 

@@ -1,7 +1,7 @@
 import type { UpdateAction } from "@/lib/types";
 
-const ENTRY_HEADER_REGEX = /^##\s(\d{4}-\d{2}-\d{2})\s—\s.+$/;
-const FILE_ENTRY_HEADER_REGEX = /^##\s(\d{4}-\d{2}-\d{2})\s—\s.*$/gm;
+const ENTRY_HEADER_REGEX = /^##\s*(\d{4}-\d{2}-\d{2})\s(?:—|-)\s.+$/;
+const FILE_ENTRY_HEADER_REGEX = /^##\s*(\d{4}-\d{2}-\d{2})\s(?:—|-)\s.*$/gm;
 
 export interface ParsedEntry {
   date: string;
@@ -17,6 +17,29 @@ function normalizeNewlines(content: string): string {
   return content.replace(/\r\n/g, "\n");
 }
 
+function getTodayHeader(): string {
+  const now = new Date();
+  const formatter = new Intl.DateTimeFormat("en-US", {
+    timeZone: process.env.APP_TIMEZONE ?? "America/Chicago",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    weekday: "long"
+  });
+
+  const parts = formatter.formatToParts(now);
+  const year = parts.find((part) => part.type === "year")?.value;
+  const month = parts.find((part) => part.type === "month")?.value;
+  const day = parts.find((part) => part.type === "day")?.value;
+  const weekday = parts.find((part) => part.type === "weekday")?.value;
+
+  if (!year || !month || !day || !weekday) {
+    throw new Error("Unable to derive current date header.");
+  }
+
+  return `## ${year}-${month}-${day} — ${weekday}`;
+}
+
 export function parseAndNormalizeEntry(markdown: string): ParsedEntry {
   const trimmed = normalizeNewlines(markdown).trim();
 
@@ -25,15 +48,18 @@ export function parseAndNormalizeEntry(markdown: string): ParsedEntry {
   }
 
   const firstLine = trimmed.split("\n")[0]?.trim() ?? "";
-  const match = firstLine.match(ENTRY_HEADER_REGEX);
+  const hasHeader = ENTRY_HEADER_REGEX.test(firstLine);
+  const normalizedEntry = hasHeader ? trimmed : `${getTodayHeader()}\n\n${trimmed}`;
+  const normalizedFirstLine = normalizedEntry.split("\n")[0]?.trim() ?? "";
+  const match = normalizedFirstLine.match(ENTRY_HEADER_REGEX);
 
   if (!match?.[1]) {
-    throw new Error("Entry must start with: ## YYYY-MM-DD — Day");
+    throw new Error("Entry must include or derive a valid date header.");
   }
 
   return {
     date: match[1],
-    entry: trimmed
+    entry: normalizedEntry
   };
 }
 

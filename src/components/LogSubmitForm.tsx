@@ -54,8 +54,8 @@ export function LogSubmitForm() {
           </button>
         </div>
         <p className="muted">
-          Paste a full entry block starting with <code>## YYYY-MM-DD — Day</code>. The app will replace that
-          date if present, otherwise append a new entry.
+          Paste your entry markdown. If <code>## YYYY-MM-DD — Day</code> is missing, the app prepends today&apos;s
+          header automatically, then replaces that date if present or appends a new entry.
         </p>
 
         <form className="stack" onSubmit={onSubmit}>
@@ -64,7 +64,7 @@ export function LogSubmitForm() {
             id="markdown"
             value={markdown}
             onChange={(event) => setMarkdown(event.target.value)}
-            placeholder="## 2026-03-06 — Friday\n\n### Tier\nTier 1..."
+            placeholder="### Tier\nTier 1..."
             rows={16}
             required
           />

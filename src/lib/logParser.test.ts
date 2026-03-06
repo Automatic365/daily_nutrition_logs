@@ -1,4 +1,4 @@
-import { describe, expect, it } from "vitest";
+import { afterEach, describe, expect, it, vi } from "vitest";
 import { parseAndNormalizeEntry, upsertDailyLogEntry } from "@/lib/logParser";
 
 const SOURCE = `# Daily Log — Long Term Memory
@@ -21,11 +21,28 @@ describe("parseAndNormalizeEntry", () => {
     expect(entry.entry.startsWith("## 2026-03-07 — Saturday")).toBe(true);
   });
 
-  it("throws on malformed header", () => {
-    expect(() => parseAndNormalizeEntry("### 2026-03-07\nTier 3")).toThrow(
-      "Entry must start with: ## YYYY-MM-DD — Day"
-    );
+  it("accepts hyphen separator in provided header", () => {
+    const entry = parseAndNormalizeEntry("## 2026-03-07 - Saturday\n\n### Tier\nTier 3");
+    expect(entry.date).toBe("2026-03-07");
+    expect(entry.entry.startsWith("## 2026-03-07 - Saturday")).toBe(true);
   });
+
+  it("prepends today's header when missing", () => {
+    vi.useFakeTimers();
+    vi.setSystemTime(new Date("2026-03-08T15:30:00.000Z"));
+    process.env.APP_TIMEZONE = "UTC";
+
+    const entry = parseAndNormalizeEntry("### Tier\nTier 3");
+
+    expect(entry.date).toBe("2026-03-08");
+    expect(entry.entry.startsWith("## 2026-03-08 — Sunday")).toBe(true);
+    expect(entry.entry).toContain("### Tier\nTier 3");
+  });
+});
+
+afterEach(() => {
+  vi.useRealTimers();
+  delete process.env.APP_TIMEZONE;
 });
 
 describe("upsertDailyLogEntry", () => {
