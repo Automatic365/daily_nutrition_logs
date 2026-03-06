@@ -11,13 +11,19 @@ function parseBody(body: unknown): SubmitLogRequest {
     throw new Error("Request body must be an object.");
   }
 
-  const { markdown } = body as { markdown?: unknown };
+  const { markdown, entryDate } = body as { markdown?: unknown; entryDate?: unknown };
 
   if (typeof markdown !== "string") {
     throw new Error("Field `markdown` must be a string.");
   }
 
-  return { markdown };
+  if (entryDate !== undefined && typeof entryDate !== "string") {
+    throw new Error("Field `entryDate` must be a string.");
+  }
+
+  const sanitizedEntryDate = entryDate?.trim() || undefined;
+
+  return { markdown, entryDate: sanitizedEntryDate };
 }
 
 export async function POST(request: Request) {
@@ -40,7 +46,7 @@ export async function POST(request: Request) {
   let normalizedEntry: string;
 
   try {
-    const parsed = parseAndNormalizeEntry(payload.markdown);
+    const parsed = parseAndNormalizeEntry(payload.markdown, payload.entryDate);
     date = parsed.date;
     normalizedEntry = parsed.entry;
   } catch (error) {

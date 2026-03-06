@@ -5,8 +5,9 @@ A password-protected Next.js app that lets you paste a full daily markdown entry
 ## Features
 
 - Password-protected UI for single-user write access
+- Date picker to choose which day the entry applies to
 - Accepts entries with or without `## YYYY-MM-DD — ...` header
-- Auto-prepends today's `## YYYY-MM-DD — Day` header when missing
+- Auto-prepends `## YYYY-MM-DD — Day` from selected date when missing
 - Replaces existing date entry, or appends if date is new
 - Commits to GitHub via Contents API
 - Retries once on GitHub write conflict
@@ -57,7 +58,7 @@ npm run build
 ## Manual Smoke Checklist
 
 1. Log in with `APP_PASSWORD`.
-2. Paste an entry block (header optional) and submit.
+2. Pick an entry date, paste an entry block (header optional), and submit.
 3. Confirm response includes date, action, commit SHA/link, and timestamp.
 4. Confirm commit appears on `main` and modifies only `daily_log.md`.
 5. Confirm existing workflow `.github/workflows/trigger_dashboard.yml` runs after commit.

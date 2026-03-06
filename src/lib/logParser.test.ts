@@ -38,6 +38,19 @@ describe("parseAndNormalizeEntry", () => {
     expect(entry.entry.startsWith("## 2026-03-08 — Sunday")).toBe(true);
     expect(entry.entry).toContain("### Tier\nTier 3");
   });
+
+  it("prepends selected-date header when missing", () => {
+    const entry = parseAndNormalizeEntry("### Tier\nTier 2", "2026-03-06");
+
+    expect(entry.date).toBe("2026-03-06");
+    expect(entry.entry.startsWith("## 2026-03-06 — Friday")).toBe(true);
+  });
+
+  it("rejects invalid selected-date format", () => {
+    expect(() => parseAndNormalizeEntry("### Tier\nTier 2", "03-06-2026")).toThrow(
+      "Field `entryDate` must be in YYYY-MM-DD format."
+    );
+  });
 });
 
 afterEach(() => {

@@ -4,8 +4,17 @@ import { FormEvent, useState } from "react";
 import { CommitSummaryCard } from "@/components/CommitSummaryCard";
 import type { SubmitLogResponse } from "@/lib/types";
 
+function getDefaultEntryDate(): string {
+  const now = new Date();
+  const year = now.getFullYear();
+  const month = String(now.getMonth() + 1).padStart(2, "0");
+  const day = String(now.getDate()).padStart(2, "0");
+  return `${year}-${month}-${day}`;
+}
+
 export function LogSubmitForm() {
   const [markdown, setMarkdown] = useState("");
+  const [entryDate, setEntryDate] = useState(getDefaultEntryDate);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [result, setResult] = useState<SubmitLogResponse | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -20,7 +29,7 @@ export function LogSubmitForm() {
       const response = await fetch("/api/logs/submit", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ markdown })
+        body: JSON.stringify({ markdown, entryDate })
       });
 
       const payload = (await response.json()) as SubmitLogResponse | { error?: string };
@@ -54,11 +63,19 @@ export function LogSubmitForm() {
           </button>
         </div>
         <p className="muted">
-          Paste your entry markdown. If <code>## YYYY-MM-DD — Day</code> is missing, the app prepends today&apos;s
-          header automatically, then replaces that date if present or appends a new entry.
+          Select the entry date, then paste your markdown. If <code>## YYYY-MM-DD — Day</code> is missing, the app
+          prepends a header using the selected date, then replaces that date if present or appends a new entry.
         </p>
 
         <form className="stack" onSubmit={onSubmit}>
+          <label htmlFor="entryDate">Entry Date</label>
+          <input
+            id="entryDate"
+            type="date"
+            value={entryDate}
+            onChange={(event) => setEntryDate(event.target.value)}
+            required
+          />
           <label htmlFor="markdown">Daily Entry Markdown</label>
           <textarea
             id="markdown"

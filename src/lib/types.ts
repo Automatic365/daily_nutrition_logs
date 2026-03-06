@@ -2,6 +2,7 @@ export type UpdateAction = "replaced" | "appended";
 
 export interface SubmitLogRequest {
   markdown: string;
+  entryDate?: string;
 }
 
 export interface SubmitLogResponse {

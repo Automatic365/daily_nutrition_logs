@@ -2,6 +2,8 @@ import type { UpdateAction } from "@/lib/types";
 
 const ENTRY_HEADER_REGEX = /^##\s*(\d{4}-\d{2}-\d{2})\s(?:—|-)\s.+$/;
 const FILE_ENTRY_HEADER_REGEX = /^##\s*(\d{4}-\d{2}-\d{2})\s(?:—|-)\s.*$/gm;
+const DATE_INPUT_REGEX = /^\d{4}-\d{2}-\d{2}$/;
+const WEEKDAYS = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"] as const;
 
 export interface ParsedEntry {
   date: string;
@@ -40,7 +42,32 @@ function getTodayHeader(): string {
   return `## ${year}-${month}-${day} — ${weekday}`;
 }
 
-export function parseAndNormalizeEntry(markdown: string): ParsedEntry {
+function getHeaderFromDateInput(entryDate: string): string {
+  if (!DATE_INPUT_REGEX.test(entryDate)) {
+    throw new Error("Field `entryDate` must be in YYYY-MM-DD format.");
+  }
+
+  const [yearText, monthText, dayText] = entryDate.split("-");
+  const year = Number(yearText);
+  const month = Number(monthText);
+  const day = Number(dayText);
+
+  const utcDate = new Date(Date.UTC(year, month - 1, day));
+
+  const isValidDate =
+    utcDate.getUTCFullYear() === year &&
+    utcDate.getUTCMonth() === month - 1 &&
+    utcDate.getUTCDate() === day;
+
+  if (!isValidDate) {
+    throw new Error("Field `entryDate` must be a valid calendar date.");
+  }
+
+  const weekday = WEEKDAYS[utcDate.getUTCDay()];
+  return `## ${entryDate} — ${weekday}`;
+}
+
+export function parseAndNormalizeEntry(markdown: string, entryDate?: string): ParsedEntry {
   const trimmed = normalizeNewlines(markdown).trim();
 
   if (!trimmed) {
@@ -49,7 +76,8 @@ export function parseAndNormalizeEntry(markdown: string): ParsedEntry {
 
   const firstLine = trimmed.split("\n")[0]?.trim() ?? "";
   const hasHeader = ENTRY_HEADER_REGEX.test(firstLine);
-  const normalizedEntry = hasHeader ? trimmed : `${getTodayHeader()}\n\n${trimmed}`;
+  const headerToUse = entryDate ? getHeaderFromDateInput(entryDate) : getTodayHeader();
+  const normalizedEntry = hasHeader ? trimmed : `${headerToUse}\n\n${trimmed}`;
   const normalizedFirstLine = normalizedEntry.split("\n")[0]?.trim() ?? "";
   const match = normalizedFirstLine.match(ENTRY_HEADER_REGEX);
 

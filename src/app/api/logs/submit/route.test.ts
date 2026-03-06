@@ -59,7 +59,7 @@ describe("POST /api/logs/submit", () => {
     const response = await POST(
       new Request("http://localhost/api/logs/submit", {
         method: "POST",
-        body: JSON.stringify({ markdown: validMarkdown })
+        body: JSON.stringify({ markdown: validMarkdown, entryDate: "2026-03-06" })
       })
     );
 
@@ -71,11 +71,7 @@ describe("POST /api/logs/submit", () => {
     expect(mockWriteDailyLogFile).toHaveBeenCalledTimes(1);
   });
 
-  it("prepends current-date header when missing", async () => {
-    vi.useFakeTimers();
-    vi.setSystemTime(new Date("2026-03-06T14:00:00.000Z"));
-    process.env.APP_TIMEZONE = "UTC";
-
+  it("prepends selected-date header when missing", async () => {
     mockIsAuthorizedRequest.mockReturnValue(true);
     mockReadDailyLogFile.mockResolvedValue({
       content: "## 2026-03-05 — Thursday\n\n### Tier\nTier 2\n",
@@ -90,16 +86,31 @@ describe("POST /api/logs/submit", () => {
     const response = await POST(
       new Request("http://localhost/api/logs/submit", {
         method: "POST",
-        body: JSON.stringify({ markdown: bodyOnlyMarkdown })
+        body: JSON.stringify({ markdown: bodyOnlyMarkdown, entryDate: "2026-03-10" })
       })
     );
 
     const payload = (await response.json()) as { date?: string; action?: string };
 
     expect(response.status).toBe(200);
-    expect(payload.date).toBe("2026-03-06");
+    expect(payload.date).toBe("2026-03-10");
     expect(payload.action).toBe("appended");
     expect(mockWriteDailyLogFile).toHaveBeenCalledTimes(1);
+  });
+
+  it("rejects invalid selected-date format", async () => {
+    mockIsAuthorizedRequest.mockReturnValue(true);
+
+    const response = await POST(
+      new Request("http://localhost/api/logs/submit", {
+        method: "POST",
+        body: JSON.stringify({ markdown: bodyOnlyMarkdown, entryDate: "03-10-2026" })
+      })
+    );
+
+    expect(response.status).toBe(400);
+    expect(mockReadDailyLogFile).not.toHaveBeenCalled();
+    expect(mockWriteDailyLogFile).not.toHaveBeenCalled();
   });
 
   it("retries once on conflict and succeeds", async () => {
