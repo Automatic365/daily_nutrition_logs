@@ -1,0 +1,49 @@
+import { describe, expect, it } from "vitest";
+import { parseAndNormalizeEntry, upsertDailyLogEntry } from "@/lib/logParser";
+
+const SOURCE = `# Daily Log — Long Term Memory
+
+## 2026-03-05 — Thursday
+
+### Tier
+Tier 1
+
+## 2026-03-06 — Friday
+
+### Tier
+Tier 2
+`;
+
+describe("parseAndNormalizeEntry", () => {
+  it("extracts date from a valid header", () => {
+    const entry = parseAndNormalizeEntry("## 2026-03-07 — Saturday\n\n### Tier\nTier 3");
+    expect(entry.date).toBe("2026-03-07");
+    expect(entry.entry.startsWith("## 2026-03-07 — Saturday")).toBe(true);
+  });
+
+  it("throws on malformed header", () => {
+    expect(() => parseAndNormalizeEntry("### 2026-03-07\nTier 3")).toThrow(
+      "Entry must start with: ## YYYY-MM-DD — Day"
+    );
+  });
+});
+
+describe("upsertDailyLogEntry", () => {
+  it("replaces an existing date block", () => {
+    const replacement = "## 2026-03-06 — Friday\n\n### Tier\nTier 1";
+    const result = upsertDailyLogEntry(SOURCE, replacement, "2026-03-06");
+
+    expect(result.action).toBe("replaced");
+    expect(result.content).toContain("Tier 1");
+    expect(result.content).not.toContain("Tier 2");
+    expect(result.content).toContain("## 2026-03-05 — Thursday");
+  });
+
+  it("appends when date does not exist", () => {
+    const entry = "## 2026-03-08 — Sunday\n\n### Tier\nTier 3";
+    const result = upsertDailyLogEntry(SOURCE, entry, "2026-03-08");
+
+    expect(result.action).toBe("appended");
+    expect(result.content.trimEnd().endsWith("Tier 3")).toBe(true);
+  });
+});
