@@ -4295,7 +4295,7 @@ Boss Name: Friday Dinner Out
 
 Boss Outcome: none
 
-## 2026-03-06 — Friday
+## 2026-03-05 — Thursday
 
 Confirmed: Today is Thursday, March 5, 2026.
 
