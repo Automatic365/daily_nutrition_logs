@@ -4297,62 +4297,55 @@ Boss Outcome: none
 
 ## 2026-03-05 — Thursday
 
-Confirmed: Today is Thursday, March 5, 2026.
+Confirmed: **Today is Thursday, March 5, 2026.**
 
-Tier: Linear
-Focus: Fuel Muay Thai, maintain deficit, recover
-
+Tier: **Linear**
+Focus: **Fuel Muay Thai, maintain deficit, recover**
 
 ---
 
-📍 Timeline to Goal
+# Timeline to Goal
 
-Start: Log file needed | Current: 162.9 lbs | Target: 150–153 | Remaining: ~10–13 lbs
+Start: **Log file needed** | Current: **162.9 lbs** | Target: **150–153** | Remaining: **~10–13 lbs**
 
-Baseline rate: 1.1 lbs/week
+Baseline rate: **1.1 lbs/week**
 
 Est. days: ~65–85
 Est. target: May 9 – May 29, 2026
 
-(Projection only — <3 days of logged weight history in this thread.)
-
-
----
-
-Recovery
-
-Sleep: 7h 08m
-HRV: 62 (optimal)
-BioCharge: 80
-
-Status: Recovered enough for a hard Muay Thai session (confirmed).
-
+(Projection only — fewer than 3 days of weight logs available here.)
 
 ---
 
-Body Metrics
+# Recovery
 
-Weight: 162.9 lbs
+Sleep: **7h 08m**
+HRV: **62 (optimal)**
+BioCharge: **80**
 
-Waist (+2"): 31.53"
-Abdomen (navel): 32.38"
-Below: 32.79"
+Status: **Recovered enough for a hard Muay Thai session.**
+
+---
+
+# Body Metrics
+
+Weight: **162.9 lbs**
+
+Waist (+2"): **31.53"**
+Abdomen (navel): **32.38"**
+Below: **32.79"**
 
 Interpretation:
 
-Upper waist already lean
-
-Remaining fat concentrated at navel + below
-
-Pattern typical of late-stage male fat loss
-
-
+* Upper waist already lean
+* Remaining fat concentrated at **navel + below**
+* Classic **late-stage male fat-loss pattern**
 
 ---
 
-Training
+# Training
 
-Muay Thai
+**Muay Thai**
 
 Duration: 1h 32m
 Calories: 707
@@ -4362,16 +4355,15 @@ Aerobic TE: 3.4
 Anaerobic TE: 3.0
 Training Load: 112
 
-Intensity estimate: 8/10
+Intensity: **8/10**
 
-This qualifies as a hard training day.
-
+This qualifies as a **hard training day**.
 
 ---
 
-Meals Logged
+# Meals Logged
 
-Meal 1
+### Meal 1
 
 2 scoops whey
 1 tbsp peanut butter
@@ -4379,77 +4371,76 @@ psyllium
 creatine
 beta-alanine
 
-Score: 100
-
+Score: **100**
 
 ---
 
-Meal 2
+### Meal 2
 
-Chicken
+8 oz chicken
 Rice
 Broccoli
 Sugar-free sweet chili
 
-Score: 95
-
+Score: **95**
 
 ---
 
-Meal 3 (Pre-Training)
+### Meal 3 (Pre-Training)
 
 6 dates
 1 tbsp cottage cheese
 10 chocolate chips
 
-Score: 82
+Score: **82**
 
-Deduction: very low protein
-
+Deduction: **very low protein**
 
 ---
 
-Meal 4 (Post-Training)
+### Meal 4 (Post-Training)
 
-Chicken wrap
+8 oz chicken wrap
 Low-carb tortilla
 Fat-free ranch
 Frank’s RedHot
 Cucumber / tomato salad
 
-Score: 96
-
+Score: **96**
 
 ---
 
-Meal 5 (Dessert)
+### Meal 5 (Dessert)
 
 Cottage cheese
 Lite whipped cream
 
-Score: 96
-
-Good choice: high protein + low calorie dessert.
-
+Score: **96**
 
 ---
 
-Intake Totals (Estimated)
+# Intake Totals
 
-Raw estimate:
+## Raw Intake (best estimate)
 
-Calories: ~1,450
-Protein: ~160 g
+Calories: **~1,450–1,550**
+Protein: **~176–190 g**
 
-Reporting adjustment rule applied:
+Midpoint estimate:
 
-Calories (+25%): ~1,810
-Protein (-20%): ~128 g
+Calories: **~1,500**
+Protein: **~183 g**
 
+## Reporting Adjustment Rule
+
+Calories (+25%): **~1,875**
+Protein (-20%): **~141–152 g**
+
+(Protein adjustment used for adherence logic only — raw protein recorded in parse block as requested.)
 
 ---
 
-Daily Adherence
+# Daily Adherence
 
 Meal scores:
 
@@ -4461,95 +4452,80 @@ Meal scores:
 
 Average:
 
-93.8
+**93.8**
 
-Daily Adherence: 94%
-
+**Daily Adherence: 94%**
 
 ---
 
-Adherence Score (0–10)
+# Adherence Score (0–10)
 
-Start: 10
+Start: **10**
 
 Deductions:
 
-−2 protein miss pre-training
-
+* -2 protein miss pre-training
 
 Final:
 
-Adherence Score: 8 / 10
-
-
----
-
-Coaching Notes
-
-What you did right
-
-1. Hard Muay Thai session (training load 112)
-
-
-2. Protein intake solid overall
-
-
-3. Dinner substitutions excellent (low-carb tortilla + fat-free ranch)
-
-
-
-What to improve
-
-Pre-training meal should include some protein. Even:
-
-½ scoop whey
-
-would have fixed that.
-
+**Adherence Score: 8 / 10**
 
 ---
 
-Key Physiological Signal
+# Coaching Notes
 
-Your measurements show a classic late-stage pattern:
+### What went well
+
+1. **Hard Muay Thai session (training load 112)**
+2. **Very strong protein intake (~180 g)**
+3. **Smart dinner substitutions (low-carb tortilla + fat-free ranch)**
+
+### Improvement point
+
+Pre-training meal should include **some protein**. Even:
+
+1/2 scoop whey
+
+would fix that.
+
+---
+
+# Fat-Loss Signal
+
+Measurements today:
 
 Waist: 31.53
 Abdomen: 32.38
 Below: 32.79
 
-Meaning fat is concentrated in the navel pocket.
+This indicates fat concentrated at the **navel pocket**.
 
-When that pocket drops ~0.7–1.0", the visual change usually happens quickly.
-
+Once that pocket drops roughly **0.7–1.0 inches**, the visual change usually occurs quickly.
 
 ---
 
-Tomorrow Focus
+# Tomorrow Focus
 
 Protein early
 Hydration
-Sleep ≥7h
+Sleep >=7h
 
-Do not tighten calories further yet — training performance is strong and adherence is high.
-
+Training performance is strong, so **do not tighten calories further yet**.
 
 ---
 
-App Parse Block
+# App Parse Block
 
-Status: Pass
-Weight: 162.9
-Abdomen (navel): 32.38
-+2": 31.53
-Below: 32.79
-Sleep: 7h 08m
-Calories: 1810
-Protein: 128g
+**Status:** Pass
+**Weight:** 162.9
+**Abdomen (navel):** 32.38
+**+2":** 31.53
+**Below:** 32.79
+**Sleep:** 7h 08m
+**Calories:** 1875
+**Protein:** 183g
 
-Daily Adherence Score: 94
-
-Boss Mode: none
-
-Boss Name: null
-
-Boss Outcome: none
+* Daily Adherence Score: 94
+* Boss Mode: none
+* Boss Name: null
+* Boss Outcome: none
