@@ -5039,3 +5039,205 @@ Reason:
 * Boss Mode: planning
 * Boss Name: Parents’ House — Travel Week
 * Boss Outcome: none
+
+## 2026-03-09 — Monday
+
+Confirmed: Today is Monday, March 9, 2026.
+
+Daily Handover — Monday, March 9, 2026
+
+Tier
+
+Linear
+
+Body Metrics
+
+Weight: 163.1 lbs
+
+Waist (+2"): 31.41"
+
+Abdomen (navel): 31.96"
+
+Below abdomen: 32.15"
+
+Sleep: 6h 25m
+
+Mood / Energy: 7/10
+
+Caliper: none
+
+
+Meal-by-Meal Scores
+
+Meal 1
+
+2 scoops whey
+
+1 tbsp peanut butter
+
+Psyllium husk
+
+Creatine
+
+Beta-alanine
+
+Score: 100
+
+
+Meal 2
+
+9 oz chicken breast
+
+Cucumber / tomato / red onion salad
+
+Light dressing
+
+Score: 96
+
+
+Bridge Meal
+
+4 dates
+
+Score: 92
+
+
+Dinner
+
+9 oz chicken breast
+
+Broccoli
+
+Hot sauce
+
+Score: 98
+
+
+Dessert
+
+1 cup cottage cheese
+
+Light whipped cream
+
+1 tbsp chocolate chips
+
+Score: 95
+
+
+Daily Adherence
+
+Meal average = 96.2 / 100
+
+Adherence Score (0–10)
+
+Start at 10.
+
+Deductions:
+
+None triggered
+
+
+Final Adherence Score: 10 / 10
+
+Nutrition Summary
+
+Raw Intake
+
+Calories: ~1,665
+
+Protein: ~240g
+
+
+Adjusted Intake (required reporting rule)
+
+Calories: ~2,081
+
+Protein: ~192g
+
+
+Hydration
+
+~70 oz
+
+
+Training
+
+Synergy strength workout: completed
+
+Walk: completed
+
+1.19 miles
+
+25:22
+
+2,241 steps
+
+Avg HR 87
+
+Max HR 101
+
+
+
+Alerts
+
+Boss declared: Parents’ House — Travel Week
+
+Boss Mode: planning
+
+Travel start: Friday, March 13, 2026
+
+Risk profile: family cooking, snacks, desserts, possible restaurant nights
+
+No hypoglycemia alert
+
+No recovery debt alert
+
+No muscle-loss alert
+
+
+Tomorrow
+
+Tomorrow Tier: Linear
+
+Training: Muay Thai hard day
+
+Tomorrow rules:
+
+Keep breakfast fixed
+
+Front-load protein
+
+Time carbs pre-training
+
+Keep dessert measured
+
+Push hydration higher than today
+
+
+
+Timeline Summary
+
+📍 Timeline to Goal
+Start: Log file needed | Current: 163.1 lbs | Target: 150–153 | Remaining: ~10–13 lbs
+Rate: ~1.1 lbs/wk baseline | Est. days: ~64–83 | Est. target: Late May to early June 2026
+
+Today helped, not hurt. Waist and lower-abdomen readings improved, and this was a clean banked day before the Friday travel boss fight.
+
+App Parse Block
+
+Status: Pass
+Weight: 163.1
+Abdomen (navel): 31.96
++2": 31.41
+Below: 32.15
+Sleep: 6h 25m
+Calories: 1665
+Protein: 240g
+
+Daily Adherence Score: 96.2
+
+Boss Mode: planning
+
+Boss Name: Parents’ House — Travel Week
+
+Boss Outcome: none
