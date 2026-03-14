@@ -5750,3 +5750,125 @@ Boss Mode: planning
 Boss Name: Parents’ House — Travel Week
 
 Boss Outcome: none
+
+## 2026-03-13 — Friday
+
+Here is the Friday handover with the data you logged. It is not fully protocol-complete because caliper is missing, so that field stays null.
+
+Friday Handover — March 13, 2026
+
+Confirmed date + Tier: Friday, March 13, 2026 — Maintenance Day. Friday’s locked target was 2,300–2,500 kcal, ≥180g protein, hard ceiling 2,500, with meals plated, no grazing, and no novelty stacking. 
+
+Boss Fight status: Execution — Parents Trip Travel Day
+This counts as a Boss Fight because normal compliance was structurally compromised by travel. Boss outcome is Fail because your estimated intake was about 3,200 raw kcal, which is more than 500 kcal over the 2,500 ceiling. 
+
+Morning check-in
+
+Weight: 162.5 lbs
+
+Waist (navel): 32.01"
+
+Waist (+2"): 30.75"
+
+Waist (−2"): 32.40"
+
+Sleep: 6h 42m
+
+Mood/Energy: 8/10
+
+Caliper: missing
+
+
+Meal-by-meal scores
+
+Meal 1: 100%
+
+Meal 2: 97%
+
+Snack hit: 35%
+
+Later intake: unstructured carb-heavy overeating, not itemized
+
+
+Daily Adherence (0–100): 35/100 — Fail
+You started the day well, then lost control later. The fail was driven by unstructured intake and clearing the maintenance cap by a wide margin.
+
+Adherence Score (0–10): 5/10
+Deductions applied from what was actually logged:
+
+−2 protein miss on an eating day
+
+−1 vegetables not confirmed at later meals
+
+−2 structure collapse / grazing drift
+
+
+Calories / protein
+
+Estimated raw calories: ~3,200
+
+Adjusted calories (+25%): 4,000
+
+Estimated raw protein: ~125g
+
+Adjusted protein (−20%): 100g
+
+
+Hydration
+
+100 oz
+
+
+Training
+
+walk
+
+No Muay Thai, no workout, no formal training
+
+Additional context: 6 hours in the car
+
+
+Alerts
+
+Friday maintenance day broken by calorie overflow
+
+Travel environment increased passive eating risk
+
+Protein finished well below the Friday target of ≥180g 
+
+
+Tomorrow Tier + rules
+
+Saturday = Maintenance Day
+
+Because of the birthday BBQ, Saturday is also a Boss Fight execution day
+
+Main rule: protein first, one deliberate plate, no grazing
+
+
+Timeline summary 📍 Timeline to Goal
+Start: Log file needed | Current: 162.5 lbs | Target: 150–153 | Remaining: ~9.5–12.5 lbs
+Rate: interim projection only | Est. days: ~60–80 | Est. target: ~May 13–May 31
+⚠️ Parents Trip Travel Day fail → likely +2 to +4 days if not contained over the weekend. Clean execution on Saturday limits that damage.
+
+App Parse Block
+
+Status: Fail
+Weight: 162.5
+Abdomen (navel): 32.01
++2": 30.75
+Below: 32.4
+Sleep: 6h 42m
+Calories: 4000
+Protein: 100g
+
+Daily Adherence Score: 35
+
+Boss Mode: execution
+
+Boss Name: Parents Trip Travel Day
+
+Boss Outcome: fail
+
+
+The only missing field is caliper.
