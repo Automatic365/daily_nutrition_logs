@@ -5872,3 +5872,134 @@ Boss Outcome: fail
 
 
 The only missing field is caliper.
+
+## 2026-03-14 — Saturday
+
+Saturday Handover — March 14, 2026
+
+Confirmed: Today is Saturday, March 14, 2026.
+Tier: Tier 2
+Boss Fight: Execution — Parents’ House — Travel Week. Friday was already logged as a travel-day fail, and Saturday was pre-framed as another Boss Fight execution day with the rule: protein first, one deliberate plate, no grazing.
+
+Body Metrics
+Weight: 163.8 lbs
+Abdomen (navel): 32.31"
+Waist (+2"): 31.30"
+Below abdomen (−2"): 32.40"
+
+Recovery
+Sleep: 9h 23m
+Mood / Energy: 8/10
+Caliper: null
+
+Meal-by-Meal Scores
+Meal 1 — Breakfast
+
+2 scoops whey
+
+Score: 100/100
+
+Meal 2 — Unstructured carbs during the day
+
+Estimated ~500–700 kcal of loose carb intake
+
+Score: 25/100
+
+Meal 3 — BBQ dinner
+
+Partial BBQ plate; you brought most of the brisket and turkey home instead of finishing it
+
+Score: 76/100
+
+Meal 4 — Dessert
+
+Chocolate cake + cookies
+
+Score: 18/100
+
+Daily Adherence
+Meal average: 54.8 / 100
+Daily Adherence: 55/100
+
+Adherence Score (0–10)
+Start: 10
+
+Deductions applied
+
+−2 protein miss on an eating day
+
+Adherence Score: 8/10
+
+Hydration
+Hydration: ~60 oz
+
+Training
+Training: none
+Travel day. No Muay Thai.
+
+Alerts
+
+Second straight travel-week miss
+
+Dessert stack turned a containable day into a fail
+
+Saturday Boss Fight outcome: Fail
+
+Sunday fast will be skipped while you are still away.
+
+Calories / Protein
+Estimated raw intake:
+
+Calories: ~2,950
+
+Protein: ~155g
+
+Reporting-rule adjusted:
+
+Calories: ~3,688
+
+Protein: ~124g
+
+Daily Outcome
+This was a Boss Fight fail. The day had a salvage path after you brought most of the brisket and turkey home, but cake plus cookies pushed it past containment.
+
+Tomorrow Tier + Rules
+Tomorrow Tier: Tier 2 recovery / structured normal eating
+Rules:
+
+No fasting
+
+No punishment or tightening
+
+Protein first
+
+Normal sodium and hydration
+
+No leftover grazing
+
+Resume structure immediately
+
+Timeline Summary
+📍 Timeline to Goal
+Start: Jan baseline ~168.8 lbs | Current: 163.8 lbs | Target: 150–153 | Remaining: ~10.8–13.8 lbs
+Rate: baseline 1.1 lbs/wk, but this weekend likely slowed the short-term rate | Est. days: ~76–97 | Est. target: late May to mid June 2026
+⚠️ Friday’s travel fail was already flagged as likely adding +2 to +4 days if the weekend was not contained. Saturday failing as well likely adds more drag on top of that.
+
+App Parse Block
+
+Status: Fail
+Weight: 163.8
+Abdomen (navel): 32.31
++2": 31.30
+Below: 32.40
+Sleep: 9h 23m
+Calories: 3688
+Protein: 124g
+
+Daily Adherence Score: 55
+
+Boss Mode: execution
+
+Boss Name: Parents’ House — Travel Week
+
+Boss Outcome: fail
