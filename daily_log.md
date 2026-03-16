@@ -6003,3 +6003,125 @@ Boss Mode: execution
 Boss Name: Parents’ House — Travel Week
 
 Boss Outcome: fail
+
+## 2026-03-15 — Sunday
+
+Confirmed: Today is Sunday, March 15, 2026.
+
+Handover — March 15, 2026
+
+Tier: Tier 1
+Boss Fight: Parents’ House / Trip
+Boss Mode: execution
+Boss Outcome: fail
+
+Check-in
+
+Weight: 167.6 lbs
+
+Waist (navel): 32.67 in
+
+Waist (+2"): 31.55 in
+
+Waist (−2"): 32.94 in
+
+Sleep: 6h 49m
+
+Mood/Energy: 8/10
+
+Caliper: null
+
+
+Meal-by-meal scores
+
+Meal 1 — 12:26 PM: Gold Standard 100% Whey, Vanilla, 2 scoops — 95%
+
+Meal 2 — grazing/snack cluster: Kirkland beef stick, clementine, popcorn, cucumber salad — 52%
+
+Meal 3 — dinner: eggplant, pasta with ground beef, salad — 84%
+
+Dessert: chocolate cake — unplanned slip
+
+
+Daily Adherence (0-100): 64
+
+Adherence Score (0-10): 6/10
+
+Deductions
+
+−2 protein miss on an eating day
+
+−1 no vegetables anchored consistently earlier in the day
+
+−1 no photo for Meal 2
+
+−1 uncontrolled grazing
+
+−1 dessert after dinner during boss fight execution
+
+
+Hydration
+
+Not fully logged
+
+
+Training
+
+Walk: 2.00 mi, 50m 07s
+
+Walk: 1.10 mi, 26m 08s
+
+Total walking: 3.10 mi, 76m 15s
+
+
+Alerts
+
+Trip environment remained an active boss-fight setting
+
+Grazing was the main breakdown point
+
+Dessert turned a salvageable day into a fail
+
+Scale spike is still likely inflated by water, glycogen, sodium, and GI bulk
+
+
+Tomorrow Tier + Rules
+
+Tier: Tier 1
+
+Structured first meal
+
+No grazing window
+
+Every meal gets a photo
+
+Dessert off the table
+
+Vegetables at lunch and dinner
+
+Shut the kitchen down after the last meal
+
+
+📍 Timeline to Goal
+Start: January 19, 2026 | Current: 167.6 lbs | Target: 150–153 | Remaining: ~14.6–17.6 lbs
+Rate: 1.1 lbs/wk | Est. days: ~93–112 | Est. target: June 16–July 5, 2026
+⚠️ Parents’ House / Trip spillover likely delayed the timeline through retention and overage days. Clean execution this week is the fix.
+
+App Parse Block
+
+Status: Fail
+Weight: 167.6
+Abdomen (navel): 32.67
++2": 31.55
+Below: 32.94
+Sleep: 6h 49m
+Calories: 2563
+Protein: 80g
+
+Daily Adherence Score: 64
+
+Boss Mode: execution
+
+Boss Name: Parents' House / Trip
+
+Boss Outcome: fail
