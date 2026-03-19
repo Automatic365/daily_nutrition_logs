@@ -6526,3 +6526,144 @@ Boss Mode: execution
 Boss Name: Dinner Out with Wife
 
 Boss Outcome: pass
+
+## 2026-03-18 — Wednesday
+
+Daily Handover — Wednesday, March 18, 2026
+
+Confirmed: Today is Thursday, March 19, 2026.
+This handover is for Wednesday, March 18, 2026.
+
+Tier: Linear
+
+Today was a Boss Fight — Parents’ House Travel Week — Family Outing.
+
+Body Metrics
+
+Weight: 165.0 lbs
+
+Abdomen (navel): 32.32"
+
+Waist (+2"): 31.30"
+
+Below abdomen: 32.45"
+
+
+Recovery
+
+Sleep: 7h 20m
+
+Mood/Energy: 8/10
+
+Caliper: null
+
+
+Meal-by-Meal Scores
+
+1. Meal 1 — 2 scoops whey with water
+Score: 95%
+Estimated macros: 240 kcal | 48g protein
+
+
+2. Meal 2 — turkey, ham, and cheese sandwich + Yoo-hoo
+Score: 70%
+Estimated macros: 550 kcal | 28g protein
+
+
+3. Extra intake — second half sandwich + small bowl of cereal
+Score: 45%
+Estimated macros: 330 kcal | 12g protein
+
+
+4. Meal 3 — pork shoulder + small salad
+Score: 78%
+Estimated macros: 780 kcal | 47g protein
+
+
+5. Boss Fight execution override
+Per your instruction, the day is being charged at 2,700 kcal raw and 135g raw protein.
+
+
+
+Daily Adherence This was a Boss Fight execution day, so it is scored against containment strategy, not normal tier targets.
+
+Daily Adherence Score: 74/100
+
+Boss Outcome: fail
+
+Reason:
+
+charged intake exceeded the committed containment ceiling
+
+protein was attempted
+
+no evidence of a complete all-day collapse
+
+but the calorie ceiling break was too large to call this a pass
+
+
+Adherence Score (0–10) 9/10
+
+Deductions:
+
+−1 no vegetables at lunch
+
+
+Hydration
+
+100 oz
+
+
+Training
+
+No Muay Thai
+
+No workout
+
+Walking during the family outing, but no formal training logged
+
+
+Alerts
+
+Boss Fight execution failed
+
+Main leak was cumulative drift, not one single meal
+
+Travel environment is still the active threat
+
+Thursday needs a hard reset with tighter food timing and less casual intake
+
+
+Tomorrow Tier + Rules
+
+Tier: Tier 2
+
+Thursday hypoglycemia watch applies after Wednesday disruption
+
+Breakfast needs to happen early
+
+Protein-first all day
+
+No liquid calories
+
+No snack drift
+
+No compensation spiral
+
+
+📍 Timeline to Goal
+Start: January 19, 2026 | Current: 165.0 lbs | Target: 150-153 | Remaining: ~12-15 lbs
+Rate: 1.1 lbs/wk | Est. days: ~76-95 | Est. target: June 2-June 21, 2026
+⚠️ Parents’ House Travel Week boss fight execution fail → +4-7 days → Updated target: June 6-June 28, 2026
+
+App Parse Block
+
+Status: Fail Weight: 165.0 Abdomen (navel): 32.32 +2": 31.30 Below: 32.45 Sleep: 7h 20m Calories: 3375 Protein: 108g
+
+Daily Adherence Score: 74
+
+Boss Mode: execution
+
+Boss Name: Parents’ House Travel Week — Family Outing
+
+Boss Outcome: fail
