@@ -8001,3 +8001,89 @@ Boss Mode: none
 Boss Name: null
 
 Boss Outcome: none
+
+## 2026-03-27 — Friday
+
+Good catch. You’re right—that was wrong.
+
+The App Parse Block must use raw totals only. No +25% / −20%.
+
+Here’s the corrected handover:
+
+
+---
+
+Day Summary
+
+Status: Pass — high-quality execution
+
+
+---
+
+Meal Scores
+
+Meal 1: 100
+
+Meal 2: 99
+
+Meal 3: 96
+
+Dessert: 100
+
+
+Daily Adherence: 99%
+
+
+---
+
+Intake (RAW — correct)
+
+Calories: ~1,750
+
+Protein: ~200g
+
+
+
+---
+
+Adherence Score
+
+10 / 10
+
+No deductions.
+
+
+---
+
+📍 Timeline Impact
+
+No delay. Momentum intact.
+
+
+---
+
+Correction Locked In
+
+Going forward: 👉 App Parse Block = RAW ONLY 👉 Adjustments stay internal only
+
+
+---
+
+App Parse Block
+
+Status: Pass
+Weight: 163.1
+Abdomen (navel): 31.55
++2": 30.51
+Below: 31.92
+Sleep: 6h 43m
+Calories: 1750
+Protein: 200g
+
+Daily Adherence Score: 99
+
+Boss Mode: none
+
+Boss Name: null
+
+Boss Outcome: none
