@@ -8995,3 +8995,145 @@ Boss Mode: none
 Boss Name: null
 
 Boss Outcome: none
+
+## 2026-04-02 — Thursday
+
+Confirmed: Today is Thursday, April 2, 2026.
+
+**Tier:** Linear
+
+### Body Metrics
+
+* **Weight:** 161.4 lbs
+* **Waist (+2")**: 30.96"
+* **Abdomen (navel):** 31.48"
+* **Below (−2")**: 31.75"
+
+### Recovery
+
+* **Sleep:** 4h 38m
+* **Mood / Energy:** 6/10
+* **Caliper:** null
+
+### Hydration
+
+* **100 oz**
+
+### Training
+
+* **None**
+
+### Meal-by-Meal Scores
+
+**Meal 1 — Standard shake**
+2 scoops whey, peanut butter, psyllium
+**Score:** 100
+
+**Meal 2 — 9 oz chicken, oil-free potatoes, vegetables**
+**Score:** 100
+
+**Post-lunch carby snacks**
+Unplanned, structure-breaking intake
+**Score:** 25
+
+**Dinner — 10 oz chicken**
+Clean protein recovery choice, but no vegetables and taken after the snack drift
+**Score:** 80
+
+### Daily Adherence
+
+**Daily Adherence Score:** 76/100
+
+This was a fail for Linear execution, but not a collapse. The damage came from the **post-lunch carb-snack window**, not from dinner. Protein stayed high, hydration was solid, and there was no late-night spiral.
+
+### Adherence Score (0–10)
+
+Start: 10
+
+Deductions:
+
+* **−2** protein miss on an eating day after adjustment rule
+* **−1** no vegetables at dinner
+
+**Final Adherence Score:** 7/10
+
+### Nutrition Summary
+
+**Estimated raw intake**
+
+* **Calories:** ~2,300
+* **Protein:** ~205g
+
+**Protocol-adjusted for scoring**
+
+* **Calories:** ~2,875
+* **Protein:** ~164g
+
+### What You Did Right
+
+* M1 was clean
+* M2 was excellent
+* Dinner was protein-forward instead of turning into another snack event
+* Hydration held
+* You reported the miss honestly
+
+### What Went Wrong
+
+Your actual leak is now clear:
+
+**Lunch → dead space → carby snacks → dinner cleanup**
+
+Not dessert.
+Not dinner.
+Not lack of protein.
+
+That middle window is where the day broke.
+
+### Alerts
+
+* **Sleep debt active**
+* Poor sleep increased snack vulnerability
+* No training means those extra carbs were pure looseness, not performance fuel
+* Measurements are still lean; this was a sloppy day, not a ruined week
+
+### Tomorrow
+
+**Tier:** Linear
+
+**Rules for tomorrow**
+
+* Standard M1
+* Real M2
+* No freestyle snacks
+* If needed, one **planned** bridge only
+* Dinner: protein + vegetables
+* Kitchen closes after dinner/dessert
+* Do not punish today with restriction
+
+### Timeline Summary
+
+You are still in a good spot.
+
+At **161.4 lbs** with:
+
+* **Waist (+2") 30.96"**
+* **Abdomen 31.48"**
+* **Below 31.75"**
+
+…the body-composition trend is still moving the right way. Today did not erase that. It just slowed momentum for one day because structure broke between lunch and dinner.
+
+### App Parse Block
+
+**Status:** Fail
+**Weight:** 161.4
+**Abdomen (navel):** 31.48
+**+2":** 30.96
+**Below:** 31.75
+**Sleep:** 4h 38m
+**Calories:** 2875
+**Protein:** 164g
+
+* Daily Adherence Score: 76
+* Boss Mode: none
+* Boss Name: null
+* Boss Outcome: none
