@@ -9137,3 +9137,210 @@ At **161.4 lbs** with:
 * Boss Mode: none
 * Boss Name: null
 * Boss Outcome: none
+
+## 2026-04-03 — Friday
+
+Confirmed: Today is Friday, April 3, 2026.
+
+Full Handover — Friday, April 3, 2026
+
+Tier
+
+Tier 2
+Maintenance day, charged at the maximum maintenance ceiling.
+
+
+---
+
+Body Metrics
+
+Weight: 162.6 lbs
+
+Abdomen (navel): 31.48"
+
++2": 30.96"
+
+Below: 32.20"
+
+Sleep: 8h 11m
+
+Mood / Energy: 6.5/10
+
+Caliper: null
+
+
+
+---
+
+Timeline to Goal
+
+📍 Timeline to Goal
+Start: Jan 19, 2026 | Current: 162.6 lbs | Target: 150–153 | Remaining: ~9.6–12.6 lbs
+Rate: ~1.0–1.1 lbs/week | Est. days: ~61–88 | Est. target: late May to late June 2026
+
+Impact of today: none if the kitchen is closed.
+This was a controlled maintenance day, not a derailment.
+
+
+---
+
+Meal-by-Meal Scores
+
+Meal 1 — 3:30 PM
+9 oz chicken breast + cucumber/tomato/onion salad
+Score: 94/100
+
+Meal 2 — Bridge
+Sardines + cucumber/tomato/onion salad
+Score: 92/100
+
+Meal 3 — Dinner
+1 slice pizza
+Score: 86/100
+
+
+---
+
+Daily Adherence
+
+Average meal score:
+(94 + 92 + 86) / 3 = 90.7
+
+Daily Adherence Score: 91/100
+
+This passes because:
+
+you recovered the late start well
+
+you used a protein bridge correctly
+
+pizza stayed portion-controlled
+
+you capped the day at maintenance instead of letting it become a spillover night
+
+
+
+---
+
+Adherence Score (0–10)
+
+Start: 10
+
+Deductions:
+
+−2 protein miss on an eating day
+
+
+Final Adherence Score: 8/10
+
+
+---
+
+Nutrition Summary
+
+Per your instruction, charging today at maximum maintenance calories:
+
+Calories: 2500
+
+Protein: ~110g
+
+
+This is conservative on calories and honest on protein.
+Calories are acceptable for maintenance. Protein was the miss.
+
+
+---
+
+Hydration
+
+Hydration: not explicitly logged
+
+
+
+---
+
+Training
+
+Training: none logged
+
+
+
+---
+
+What You Did Right
+
+You prevented the day from turning into random snacking chaos.
+
+The first meal was strong.
+
+The sardine bridge was exactly the right move.
+
+Pizza was contained to a single slice.
+
+You made the correct call to classify it as maintenance instead of pretending it was linear.
+
+
+
+---
+
+What Needs Improvement
+
+Protein was too low for a maintenance day.
+
+Dinner had no vegetable anchor.
+
+Late-start days still need a cleaner finish than pizza if you want the fastest path to goal.
+
+
+
+---
+
+Alerts
+
+No collapse.
+
+No binge signal.
+
+Main issue was protein shortfall, not calorie overflow.
+
+Friday remains a high-risk drift day, but today was contained.
+
+
+
+---
+
+Tomorrow
+
+Tier: Tier 2
+Rules:
+
+protein early
+
+no drifting into “maintenance means freestyle”
+
+vegetables at dinner
+
+close the kitchen after dessert
+
+
+
+---
+
+App Parse Block
+
+Status: Pass
+Weight: 162.6
+Abdomen (navel): 31.48
++2": 30.96
+Below: 32.2
+Sleep: 8h 11m
+Calories: 2500
+Protein: 110g
+
+Daily Adherence Score: 91
+
+Boss Mode: none
+
+Boss Name: null
+
+Boss Outcome: none
