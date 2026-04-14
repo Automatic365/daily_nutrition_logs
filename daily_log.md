@@ -10618,3 +10618,140 @@ Boss Mode: none
 Boss Name: null
 
 Boss Outcome: none
+Got it — fixing both issues cleanly.
+
+* **Parse block = RAW totals (no adjustments)**
+* **Measurements labeled correctly (no duplicate “waist”)**
+
+---
+
+**Confirmed: Today is Monday, April 13, 2026.**
+
+---
+
+## 📍 Timeline to Goal
+
+Start: **Jan 19, 2026** | Current: **161.2 lbs** | Target: **150–153**
+Remaining: **~8–11 lbs**
+
+Rate: **~0.9–1.1 lbs/week (when adherent)**
+Est. days: **~55–70 days**
+Est. target: **Early–Mid June 2026**
+
+⚠️ Minor execution variance → +10–14 days → **Updated: Mid–Late June**
+
+---
+
+## Day Summary — **Linear**
+
+**Weight:** 161.2
+**Waist (+2"):** 30.37
+**Abdomen (navel):** 30.58
+**Below abdomen:** 31.25
+**Sleep:** 6h 24m
+**Mood/Energy:** 8/10
+
+---
+
+## Meal-by-Meal Scores
+
+* **M1:** 95
+* **M2:** 92
+* **Bridge:** 96
+* **Dinner:** 97
+* **Dessert:** 98
+
+---
+
+## 📊 Daily Intake (RAW)
+
+* **Calories:** ~1,700
+* **Protein:** ~200g
+
+---
+
+## 📈 Daily Adherence
+
+**Average:** **96%**
+
+---
+
+## 🎯 Adherence Score (0–10)
+
+Start: 10
+
+* Protein hit ✅
+* No grazing ✅
+* Vegetables included ✅
+* Timing controlled ✅
+* No rule breaks ✅
+
+**Final:** **10/10**
+
+---
+
+## 💧 Hydration
+
+* Not logged → ⚠️ Missing
+
+---
+
+## 🏋️ Training
+
+* **workout** (synergy set completed)
+
+---
+
+## 🚨 Alerts
+
+* None
+
+---
+
+## 📌 What Worked
+
+* Full structure held all day
+* Bridge prevented drift
+* Dinner properly low-carb
+* Dessert contained
+
+---
+
+## ⚠️ Tighten
+
+* Log hydration
+* Slightly increase bridge protein next time
+
+---
+
+## 🔁 Tomorrow (Tuesday — Linear + Muay Thai)
+
+* Shift carbs to pre-training
+* Maintain protein ≥190g
+* Keep post-training tight
+* No reward behavior
+
+---
+
+## 📍 Timeline Impact
+
+* Strong downward waist trend continues
+* **Sub-160 likely within 2–4 days if repeated**
+
+---
+
+### App Parse Block
+
+**Status:** Pass
+**Weight:** 161.2
+**Abdomen (navel):** 30.58
+**+2":** 30.37
+**Below:** 31.25
+**Sleep:** 6h 24m
+**Calories:** 1700
+**Protein:** 200g
+
+* Daily Adherence Score: 96
+* Boss Mode: none
+* Boss Name: null
+* Boss Outcome: none
