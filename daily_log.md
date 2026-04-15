@@ -10618,6 +10618,9 @@ Boss Mode: none
 Boss Name: null
 
 Boss Outcome: none
+
+## 2026-04-13 — Monday
+
 Got it — fixing both issues cleanly.
 
 * **Parse block = RAW totals (no adjustments)**
@@ -10755,3 +10758,57 @@ Start: 10
 * Boss Mode: none
 * Boss Name: null
 * Boss Outcome: none
+
+They were wrong. I overstated them.
+
+Your day was **nowhere near 2,563 calories**. That was a bad estimate.
+
+## Corrected rough total
+
+Based on what you actually logged:
+
+* **M1:** standard shake → ~330–360
+* **M2:** chicken, potatoes, broccoli, sauces → ~550–650
+* **Pre-training:** dates → ~100–140
+* **Dinner:** chicken, tortilla, broccoli, fat-free cheese → ~450–550
+* **Dessert:** cottage cheese + chocolate chips → ~220–280
+
+## Corrected day total
+
+**Estimated raw calories: ~1,700–1,950**
+
+Best single-number estimate:
+**~1,840 calories**
+
+## Corrected protein
+
+**~190–220g**
+Best single-number estimate:
+**~205g**
+
+So the real read is:
+
+* **Calories:** controlled
+* **Protein:** strong
+* **Training day:** high output
+* **Result:** good day
+
+The parse block I gave you was wrong. The cleaner correction is below.
+
+### Corrected App Parse Block
+
+**Status:** Pass
+**Weight:** 162.5
+**Abdomen (navel):** 31.44
+**+2":** 30.58
+**Below:** 31.82
+**Sleep:** 7h 11m
+**Calories:** 1840
+**Protein:** 205g
+
+* Daily Adherence Score: 94
+* Boss Mode: none
+* Boss Name: null
+* Boss Outcome: none
+
+The big point: this was a **tight day**, not a maintenance or spillover day.
