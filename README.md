@@ -13,6 +13,15 @@ A password-protected Next.js app that lets you paste a full daily markdown entry
 - Retries once on GitHub write conflict
 - Structured submit response with commit SHA and URL
 
+## Logging Sync Rule
+
+All future manual log updates must be written to both files:
+
+- `daily_log.md` (full narrative source of truth)
+- `logs/app_parse_blocks_complete.md` (LLM-friendly parse-block ledger)
+
+If a day is updated in one file, the same day must be updated in the other file in the same change.
+
 ## Environment Variables
 
 Copy `.env.example` to `.env.local` and set:

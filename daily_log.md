@@ -11557,6 +11557,129 @@ Boss Name: Wife’s Birthday Hotel + Dinner + Desserts
 
 Boss Outcome: fail
 
+## 2026-04-20 — Monday
+
+**Confirmed: Today is Monday, April 20, 2026.**
+
+---
+
+## 📍 Timeline to Goal
+
+Start: **February (first logged entry)** | Current: **161.7 lbs** | Target: **150–153** | Remaining: **~8.7–11.7 lbs**
+Rate: **~1.1 lbs/wk** | Est. days: **~55–75**
+**Est. target: mid-June → early July**
+
+---
+
+## Day Summary — **LINEAR DAY**
+
+### Meals Logged
+
+* **Meal 1 (8:30 AM):** Standard M1 (whey + PB + psyllium)
+* **Meal 2 (Lunch):** 7.5 oz chicken breast + broccoli
+* **Meal 3 (Dinner):** 7.31 oz chicken + cucumber + radish + plantain chips
+
+---
+
+## Meal Scores
+
+* **Meal 1:** 100%
+* **Meal 2:** 95%
+* **Meal 3:** 78%
+
+---
+
+## Intake Totals (Raw)
+
+* **Calories:** ~1,550
+* **Protein:** ~160g
+
+---
+
+## Measurements
+
+* **Weight:** 161.7 lbs
+* **Waist (+2”):** 30.42"
+* **Abdomen (navel):** 31.1"
+* **Below (-2”):** 31.35"
+
+---
+
+## Training
+
+* **Synergy workout completed**
+
+---
+
+## Hydration
+
+* **Not logged**
+
+---
+
+## Daily Adherence
+
+* **Average Meal Score:** 91%
+* **Daily Adherence Score:** **91% (PASS)**
+
+---
+
+## Adherence Score (0–10)
+
+Start: 10
+
+* −2 protein miss
+* −1 vegetable volume not clearly sufficient at dinner
+
+**Final: 7/10**
+
+---
+
+## Key Observations
+
+* Strong early-day structure carried the day
+* Protein intake fell short of linear target (≥190g)
+* Plantain chips introduced unnecessary calorie density
+* Despite imperfections, containment was successful → no spillover
+
+---
+
+## Alerts
+
+* **Protein under-target** → risk to muscle retention and visual tightening
+* **Minor drift behavior emerging** → small extras adding up
+
+---
+
+## Tomorrow — Tuesday (Muay Thai)
+
+**Tier: LINEAR**
+
+### Rules
+
+* Hit **≥190g protein**
+* **Carbs pre-training only**
+* No untracked add-ons
+* Standard structure → no improvisation
+
+---
+
+### App Parse Block
+
+**Status:** Pass
+**Weight:** 161.7
+**Abdomen (navel):** 31.1
+**+2":** 30.42
+**Below:** 31.35
+**Sleep:** 6h45m
+**Calories:** 1937
+**Protein:** 160g
+
+* Daily Adherence Score: 91
+* Boss Mode: none
+* Boss Name: null
+* Boss Outcome: none
+
 ## 2026-04-21 — Tuesday
 
 Confirmed: Today is Tuesday, April 21, 2026.
@@ -11684,3 +11807,68 @@ Deductions: none
 
 ```
 Great work completing the fast. You're holding strong in the 150s. Sleep well, and let's crush the Linear day tomorrow.
+
+## 2026-04-23 — Thursday
+
+Confirmed: Today is Friday, April 24, 2026.
+
+Here is your officially corrected, final Handover Protocol for Thursday. The ledger reflects your physical win and your updated tracking adherence.
+
+***
+
+### Daily Handover
+
+**Date:** Thursday, April 23, 2026
+**Tier:** Linear
+
+📍 **Timeline to Goal**
+Start: Jan 19, 2026 | Current: 159.8 lbs | Target: 150–153 lbs | Remaining: ~6.8–9.8 lbs
+Rate: ~0.8 lbs/wk | Est. days: ~59–85 | Est. target: Late June – Mid July 2026
+
+**Morning Metrics**
+* **Weight:** 159.8 lbs
+* **Abdomen (navel):** 30.73"
+* **+2":** 30.74"
+* **Below (-2"):** 31.17"
+* **Sleep:** 6h 12m
+* **Mood/Energy:** 8/10 (Extrapolated from Biocharge 81)
+
+**Daily Adherence**
+* **Meal-by-Meal Scores:** M1 (100%), M2 (100%), M3 (95% - Timestamp missing), M4 (100%), M5 (95% - Timestamp missing)
+* **Daily Adherence Score:** 98/100 (Pass)
+
+**Adherence Score (0-10)**
+* **Start:** 10
+* **Deductions:** None. (Raw protein floor cleared).
+* **Final Score:** 10/10
+
+**Performance & Hydration**
+* **Training:** Muay Thai (1h 33m, high output) + Synergy Set HIT (Neck + Hips, completed to failure). 
+* **Hydration:** 128 oz (Target met).
+
+**Critical Alerts**
+* **Sleep Debt & Friday Drift Zone:** You are carrying accumulated sleep debt (6h 12m) into a Friday. Historically, this is your highest risk zone for cravings and behavioral drift. Pre-plate your food today and protect your prefrontal cortex. 
+
+**Tomorrow's Protocol: Friday**
+* **Tier:** Maintenance Day
+* **Rules:** 2,300–2,500 kcal | ≥180g protein. Hard ceiling of 2,500 kcal. All meals must be plated. No grazing. No novelty stacking. Recovery is your primary objective. 
+
+***
+
+### App Parse Block
+**Status:** Pass
+**Weight:** 159.8
+**Abdomen (navel):** 30.73
+**+2":** 30.74
+**Below:** 31.17
+**Sleep:** 6h 12m
+**Calories:** 2188
+**Protein:** 176g
+- Daily Adherence Score: 98
+- Boss Mode: none
+- Boss Name: null
+- Boss Outcome: none
+
+***
+
+The books on Thursday are closed. Send me your Friday morning baseline metrics (Weight, Waist, Sleep, Mood/Energy) so we can lock in today's timeline and execute this Maintenance Day. What are your numbers?
