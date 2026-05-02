@@ -12227,3 +12227,148 @@ Daily Adherence Score: 95
 Boss Mode: none
 Boss Name: null
 Boss Outcome: none
+
+## 2026-05-01 — Friday
+
+Confirmed: Today is Friday, May 1, 2026.
+
+
+---
+
+Handover — May 1, 2026 (Final Correction)
+
+Tier: Maintenance
+Weight: 159.7
+
+Waist:
+
+Abdomen (navel): 30.42"
+
++2": 30.24"
+
+−2": 31.25"
+
+
+Sleep + Mood:
+
+Sleep: 5h 46m
+
+Mood/Energy: 6.6/10
+
+
+
+---
+
+Meals
+
+M1: 100%
+
+M2: 95%
+
+Dinner (dumplings): 70% (12 vs 10 cap)
+
+Late-night eating: 20% (included protein but uncontrolled intake)
+
+
+
+---
+
+Daily Adherence: 70%
+
+Adherence Score (0–10): 6.5/10
+
+Deductions:
+
+−2 → Broke capped plan (10 → 12 dumplings)
+
+−1.5 → Late-night uncontrolled eating (partially mitigated by protein)
+
+−0.5 → Sleep <6h impacting execution
+
+
+
+---
+
+Hydration
+
+128 oz ✅
+
+
+
+---
+
+Training
+
+Synergy: completed
+
+
+
+---
+
+Alerts
+
+Primary pattern:
+→ Boundary break → permission → extended eating window
+
+Mitigation noted:
+→ Inclusion of protein reduced severity (this matters)
+
+Sleep-driven risk remains primary driver
+
+
+
+---
+
+Tomorrow Plan
+
+Tier: Linear
+
+Rules:
+
+1,700–1,900 kcal
+
+≥180g protein
+
+No trigger carbs
+
+Strict meal structure
+
+No eating after final meal
+
+
+
+---
+
+Timeline Summary
+
+You are still trending correctly.
+
+This day:
+
+Did NOT materially damage fat loss
+
+DID expose the exact behavior that slows your finish
+
+
+> Tighten the finish → rapid progress
+Leave it loose → slow grind continues
+
+
+
+
+---
+
+App Parse Block
+
+Status: Fail
+Weight: 159.7
+Abdomen (navel): 30.42
++2": 30.24
+Below: 31.25
+Sleep: 5h 46m
+Calories: null
+Protein: null
+Daily Adherence Score: 70
+Boss Mode: none
+Boss Name: null
+Boss Outcome: none
