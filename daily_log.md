@@ -12511,3 +12511,149 @@ Daily Adherence Score: 75
 Boss Mode: none
 Boss Name: null
 Boss Outcome: none
+
+Confirmed: Today is Sunday, May 3, 2026.
+
+---
+
+# Handover
+
+### Tier
+
+**FAST DAY (modified — interrupted)**
+
+---
+
+### Weight
+
+**162.8 lbs (7-day avg)**
+
+---
+
+### Waist
+
+* **Abdomen (navel):** 31.44"
+* **+2":** 30.83"
+* **−2":** 31.57"
+
+---
+
+### Sleep + Mood
+
+* **Sleep:** 7h 52m
+* **Mood/Energy:** 8.5/10
+
+---
+
+### Meals
+
+**Meal 1–X:**
+
+* **Popcorn (~300–500 kcal, ~6:30 PM)**
+* **Score:** 50% (no photo + off-plan for fast)
+
+---
+
+### Daily Adherence
+
+**Adherence Score:** **70%**
+
+**Breakdown:**
+
+* * Strong fast execution most of the day
+* * Contained intake (no binge)
+* * Immediate behavioral recovery
+* − Fast broken (primary objective missed)
+* − No photo evidence
+
+---
+
+### Calories + Protein (RAW)
+
+* **Calories:** ~400 kcal
+* **Protein:** ~8g
+
+---
+
+### Hydration
+
+**Not reported**
+
+---
+
+### Training
+
+**None (correct for fast day)**
+
+---
+
+### Alerts
+
+* Fast integrity broken late in day
+* Environmental trigger (family outing) identified
+* Risk pattern: “small exception” under social conditions
+
+---
+
+### Coaching Correction
+
+What you did right:
+
+* Contained deviation
+* Did not spiral
+* Regained control immediately
+
+What needs improvement:
+
+* Entering known trigger environments **without a pre-commitment rule**
+
+**New rule:**
+
+* Fast day + social setting =
+  **either full compliance OR planned break**
+  → never “just a little”
+
+---
+
+### Tomorrow
+
+**Tier:** LINEAR DAY
+
+**Rules:**
+
+* Return to full structure immediately
+* No compensation restriction
+* Standard M1 on wake
+* Tight execution resets momentum
+
+---
+
+### Timeline Update
+
+* No meaningful setback
+* Water fluctuation likely resolves in 24–48h
+* Still on track for:
+
+  * **Sub-160:** ~10–14 days
+  * **155:** ~4–5 weeks
+
+---
+
+## App Parse Block
+
+```text
+App Parse Block
+
+Status: Pass
+Weight: 162.8
+Abdomen (navel): 31.44
++2": 30.83
+Below: 31.57
+Sleep: 7h 52m
+Calories: 400
+Protein: 8g
+Daily Adherence Score: 70
+Boss Mode: none
+Boss Name: null
+Boss Outcome: none
+```
