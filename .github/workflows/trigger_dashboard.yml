@@ -30,6 +30,7 @@ jobs:
           token: ${{ secrets.DASHBOARD_PAT }}
           repository: Automatic365/weight_cut_dashboard
           event-type: update_logs
+          client-payload: '{"source_repo":"${{ github.repository }}","source_sha":"${{ github.sha }}","source_ref":"${{ github.ref }}","source_path":"daily_log.md","source_run_id":"${{ github.run_id }}"}'
 
       - name: Fail with credential guidance
         if: steps.dispatch.outcome != 'success'
@@ -37,3 +38,37 @@ jobs:
           echo "::error::Repository dispatch failed. Rotate DASHBOARD_PAT and verify repo scope + org access for Automatic365/weight_cut_dashboard."
           echo "::error::Expected outcome: this workflow should create a repository_dispatch run in weight_cut_dashboard immediately."
           exit 1
+
+      - name: Verify Dashboard Dispatch Run Started
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.DASHBOARD_PAT }}
+          script: |
+            const owner = 'Automatic365';
+            const repo = 'weight_cut_dashboard';
+            const workflow_id = 'sync-data.yml';
+            const startedAt = new Date('${{ github.event.head_commit.timestamp || github.event.repository.pushed_at }}');
+            const minCreatedAt = Number.isNaN(startedAt.getTime())
+              ? new Date(Date.now() - 5 * 60 * 1000)
+              : new Date(startedAt.getTime() - 60 * 1000);
+
+            for (let attempt = 1; attempt <= 12; attempt += 1) {
+              const { data } = await github.rest.actions.listWorkflowRuns({
+                owner,
+                repo,
+                workflow_id,
+                event: 'repository_dispatch',
+                per_page: 10,
+              });
+
+              const matchingRun = data.workflow_runs.find((run) => new Date(run.created_at) >= minCreatedAt);
+              if (matchingRun) {
+                core.info(`Dashboard repository_dispatch run started: ${matchingRun.html_url}`);
+                return;
+              }
+
+              core.info(`Waiting for dashboard repository_dispatch run (${attempt}/12)...`);
+              await new Promise((resolve) => setTimeout(resolve, 5000));
+            }
+
+            core.setFailed('Repository dispatch succeeded, but no recent weight_cut_dashboard repository_dispatch run was found. Verify DASHBOARD_PAT access and sync-data.yml triggers.');
