@@ -12800,3 +12800,149 @@ Daily Adherence Score: 92
 Boss Mode: none
 Boss Name: null
 Boss Outcome: none
+
+## 2026-05-05 — Tuesday
+
+Confirmed: Today is Tuesday, May 5, 2026.
+
+
+---
+
+Handover
+
+Tier: Linear
+
+
+---
+
+Body Metrics
+
+Weight: 162.4
+
+Abdomen (navel): 31.44
+
++2": 30.9
+
+−2": 31.83
+
+
+
+---
+
+Recovery
+
+Sleep: 6h 10m
+
+Mood / Energy: 8.5 / 10
+
+
+
+---
+
+Meals
+
+M1: (not logged today)
+
+M2: Chicken + rice → 100%
+
+Dinner: Turkey chili bowl → 94%
+
+Dessert: Cottage cheese + SF pudding + light Cool Whip → 100%
+
+
+
+---
+
+Daily Adherence
+
+Meal Avg: 98%
+
+Daily Adherence: 96%
+
+
+
+---
+
+Adherence Score (0–10)
+
+9.5 / 10
+
+Deductions:
+
+−0.5 → No M1 logged / partial structure gap
+
+
+
+---
+
+Hydration
+
+Not confirmed
+
+
+
+---
+
+Training
+
+Synergy workout
+
+Muay Thai (1:24, high output)
+
+
+
+---
+
+Alerts
+
+Pattern risk remains: nibbling behavior
+
+Today controlled → must repeat
+
+Weekend containment still primary unlock
+
+
+
+---
+
+Tomorrow
+
+Tier: Linear
+
+Focus: Repeat structure → no leakage
+
+Maintain carb control + post-training discipline
+
+
+
+---
+
+Timeline to Goal
+
+~2–3 lbs to break 160
+
+~4–6 weeks to consistent sub-160
+
+~6–8 weeks to 29.x waist
+
+
+Today moved you forward.
+Stack 3–5 days like this → breakthrough.
+
+
+---
+
+App Parse Block
+
+Status: Pass
+Weight: 162.4
+Abdomen (navel): 31.44
++2": 30.9
+Below: 31.83
+Sleep: 6h 10m
+Calories: 1800
+Protein: 190g
+Daily Adherence Score: 96
+Boss Mode: none
+Boss Name: null
+Boss Outcome: none
