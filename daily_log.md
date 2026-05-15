@@ -13441,3 +13441,117 @@ Next 72 hours highly important for stabilization
 App Parse Block
 
 Status: Pass Weight: 164.7 Abdomen (navel): 31.45 +2": 30.76 Below: 32.06 Sleep: 5h 51m Calories: 0 Protein: 0g Daily Adherence Score: 96 Boss Mode: none Boss Name: null Boss Outcome: none
+
+## 2026-05-14 — Thursday
+
+Confirmed: Today is Thursday, May 14, 2026.
+
+# Handover
+
+## Tier
+
+Linear
+
+## Measurements
+
+* Weight: 160.9 lb
+* Waist (+2"): 30.43"
+* Abdomen (navel): 30.71"
+* Below (-2"): 31.36"
+
+## Recovery
+
+* Sleep: 6h 33m
+* Sleep Score: 71
+* Mood / Energy: 9/10 (BioCharge 90)
+
+## Meals
+
+### Meal 1 — Standard M1
+
+Score: 100%
+
+### Meal 2 — Chicken, potatoes, broccoli
+
+Score: 96%
+
+### Bridge — 6 dates
+
+Score: 92%
+
+### Dinner — Chicken + tuna + sardines + cucumber/pickles
+
+Score: 97%
+
+### Dessert — Cottage cheese dessert
+
+Score: 95%
+
+## Meal Average
+
+96%
+
+## Daily Adherence
+
+95%
+
+## Adherence Score (0–10)
+
+9.5/10
+
+### Deductions
+
+* Slightly aggressive bridge carb portion
+* Potatoes slightly above tighter linear target range
+* Dessert category always carries continuation-eating risk
+
+## Hydration
+
+Not fully reported
+
+## Training
+
+* Walk: 27 min
+* Muay Thai: 1h 36m
+* Avg HR: 119 bpm
+* Max HR: 182 bpm
+* Training Load: 140
+
+## Alerts
+
+* Excellent rebound control after Wednesday fast
+* Strong appetite management post-Muay Thai
+* Abdomen measurement dropped significantly from prior day
+* No evidence of true fat gain from yesterday’s temporary scale increase
+
+## Tomorrow Tier + Rules
+
+Maintenance Day
+
+Rules:
+
+* 2,300–2,500 kcal ceiling
+* ≥180g protein
+* Meals plated
+* No grazing
+* No novelty stacking
+* Maintain structure despite increased flexibility
+
+## Timeline Summary
+
+Today materially reinforced that your structure is still working. Weight and waist volatility from the previous day resolved rapidly, indicating fluid fluctuation rather than fat accumulation. The major long-term limiter remains weekend containment consistency, not weekday execution.
+
+App Parse Block
+
+Status: Pass
+Weight: 160.9
+Abdomen (navel): 30.71
++2": 30.43
+Below: 31.36
+Sleep: 6h 33m
+Calories: 1780
+Protein: 225g
+Daily Adherence Score: 95
+Boss Mode: none
+Boss Name: null
+Boss Outcome: none
