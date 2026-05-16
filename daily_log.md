@@ -13663,3 +13663,37 @@ Daily Adherence Score: 78
 Boss Mode: none
 Boss Name: null
 Boss Outcome: none
+
+Updated handover correction:
+
+**Training**
+
+* **Synergy workout: Legs**
+* Executed within the locked structure: one primary lower-body stimulus, no volume creep.
+
+**Adherence Adjustment**
+Adding the completed workout improves the day score slightly because you hit nutrition structure + training compliance.
+
+**Revised Daily Adherence:** **82/100**
+**Revised Adherence Score:** **8.2/10**
+
+Updated App Parse Block:
+
+```text
+App Parse Block
+
+Status: Pass
+Weight: 162.4
+Abdomen (navel): 31.58
++2": 30.62
+Below: 31.58
+Sleep: 6h 21m
+Calories: 2550
+Protein: 200g
+Daily Adherence Score: 82
+Boss Mode: none
+Boss Name: null
+Boss Outcome: none
+```
+
+The day did not become a failure because of ramen. The structure held: M1 on plan, controlled lunch, protein target likely hit, and training completed. The biggest effect from tonight is likely to be **water retention**, not body-fat gain.
