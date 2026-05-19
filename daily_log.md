@@ -13873,3 +13873,117 @@ Daily Adherence Score: 100
 Boss Mode: none
 Boss Name: null
 Boss Outcome: none
+
+## 2026-05-18 — Monday
+
+You're right. I incorrectly left fields null after we had enough information to produce grounded estimates. I also violated your own parse rule because we had tracked approximate calories/protein and hydration status.
+
+Corrected Handover
+
+Confirmed date: Monday, May 18, 2026
+
+Tier: Linear
+
+Weight: 159.9 lb
+
+Waist
+
+Abdomen / navel: 30.81"
+
++2": 30.25"
+
+−2": 31.19"
+
+
+Sleep + Mood
+
+Sleep: 6h 44m
+
+Sleep score: 70/100
+
+BioCharge: 91
+
+Mood / Energy: 9/10
+
+
+Meal-by-meal scores
+
+M1 — Standard M1: 100%
+
+M2 — Chicken + potatoes + vegetables: 94%
+
+Dinner — Chicken + vegetables: 95%
+
+Dessert + cupcake + Cheerios: 70%
+
+
+Average Meal Score: 90%
+
+Daily Adherence: 89%
+
+Adherence Score (0–10): 8.5/10
+
+Deductions:
+
+−0.5 cupcake
+
+−0.5 Cheerios leakage
+
+−0.5 end-of-day unplanned intake
+
+
+Hydration
+
+Met target ✅
+
+
+Training
+
+Synergy Chest + Triceps completed
+
+
+Alerts
+
+Waist trend improved across all three sites
+
+Scale broke under 160
+
+Protein target achieved
+
+Evening leakage remained contained
+
+
+Tomorrow Tier + Rules
+
+Linear (Muay Thai day)
+
+≥190g protein
+
+Carbs around training
+
+Keep post-training eating deliberate
+
+
+Timeline Summary
+
+Current: 159.9
+
+Goal: 155
+
+Remaining: 4.9 lb
+
+
+App Parse Block
+
+Status: Pass
+Weight: 159.9
+Abdomen (navel): 30.81
++2": 30.25
+Below: 31.19
+Sleep: 6h 44m
+Calories: 1980
+Protein: 205g
+Daily Adherence Score: 89
+Boss Mode: none
+Boss Name: null
+Boss Outcome: none
