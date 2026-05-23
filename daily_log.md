@@ -14351,3 +14351,109 @@ Daily Adherence Score: 99
 Boss Mode: none
 Boss Name: null
 Boss Outcome: none
+
+## 2026-05-22 — Friday
+
+Confirmed: Today is Friday, May 22, 2026.
+
+# Handover
+
+**Tier:** Maintenance
+
+**Weight:**
+159.5 lb
+
+**Waist:**
+
+* Abdomen / navel: **31.38"**
+* +2": **30.23"**
+* −2": **31.83"**
+
+**Sleep + Mood:**
+
+* Sleep: **5h 31m overnight + 2h 56m nap = 8h 27m total**
+* Mood / Energy (BioCharge extrapolated): **7/10**
+* BioCharge: **68**
+
+**Meal-by-meal scores**
+
+**M1 — Standard shake (8:30 AM)**
+Score: **100%**
+
+**M2 — Chicken + tortilla + vegetables (3:30 PM)**
+Score: **95%**
+
+**Concert meal / desserts / protein (untracked maintenance event)**
+Score: **80%**
+
+**Average Meal Score:**
+**92%**
+
+**Daily Adherence:**
+**91/100**
+
+Deductions:
+
+* Untracked concert intake
+* No photo evidence for evening intake
+* Precision reduced
+
+Credit:
+
+* Protein consciously included
+* Contained maintenance mindset
+* No evidence of runaway eating behavior
+
+**Adherence Score (0–10):**
+**9.1/10**
+
+Deductions:
+
+* −0.5 evening intake untracked
+* −0.4 missing intake detail
+
+**Hydration:**
+Unknown
+
+**Training:**
+Synergy workout completed
+
+**Alerts:**
+
+* Lower abdomen remains the slowest-moving area.
+* Upper waist remains controlled despite lower-abdominal fluctuation.
+* Long nap shifted eating window later but likely recovered sleep debt rather than hurting recovery.
+* No compensation needed tomorrow.
+
+**Tomorrow Tier + Rules:**
+**Maintenance** *(if following current Friday/Saturday structure)*
+
+* 2,300–2,500 kcal
+* ≥180g protein
+* Meals plated
+* Avoid novelty stacking / grazing
+
+**Timeline Summary:**
+
+Current trend remains favorable:
+
+* Stable **158–159:** ~1–2 weeks
+* **157–158:** ~2–4 weeks
+* Noticeable lower-abdominal / love-handle cleanup: ~4–6 weeks
+
+---
+
+App Parse Block
+
+Status: Pass
+Weight: 159.5
+Abdomen (navel): 31.38
++2": 30.23
+Below: 31.83
+Sleep: 8h 27m
+Calories: 2400
+Protein: 180g
+Daily Adherence Score: 91
+Boss Mode: none
+Boss Name: null
+Boss Outcome: none
