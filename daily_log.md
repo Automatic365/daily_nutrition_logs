@@ -14457,3 +14457,119 @@ Daily Adherence Score: 91
 Boss Mode: none
 Boss Name: null
 Boss Outcome: none
+
+## 2026-05-26 — Tuesday
+
+Confirmed: Today is Tuesday, May 26, 2026.
+
+Handover
+
+Tier: Linear
+
+Weight: 163.4 lb
+
+Waist
+
+Abdomen / navel: 31.32"
+
++2": 30.36"
+
+−2": 31.25"
+
+
+Sleep + Mood
+
+Sleep: 6h 38m
+
+Sleep score: 73
+
+Mood / Energy (BioCharge derived): 9/10
+
+BioCharge: 89
+
+
+Meal-by-meal scores
+
+M1 (standard shake): 100%
+
+M2 (chicken + potatoes + vegetables): 98%
+
+Bridge (10 dates): 85%
+
+Dinner (chicken wrap + broccoli): 98%
+
+Dessert: 95%
+
+
+Average Meal Score: 95.2%
+
+Daily Adherence: 96/100
+
+Adherence Score (0–10): 9.5/10
+
+Deductions:
+
+−0.5: bridge carbs ran higher than planned (10 dates vs usual bridge amount)
+
+
+Hydration
+
+128 oz ✅
+
+
+Training
+
+Muay Thai
+
+1h 38m
+
+Training load: 123
+
+Peak HR: 179
+
+
+Alerts
+
+Scale remains elevated (163.4) but measurements moved favorably:
+
+Abdomen: 31.42 → 31.32
+
+Below: 31.56 → 31.25
+
+
+Lower abdomen dropped despite scale increase → stronger signal than scale noise today
+
+Protein target comfortably achieved
+
+
+Tomorrow Tier + Rules
+
+PSMF Day
+
+1,100–1,200 kcal
+
+180–200g protein
+
+Minimal carbs/fats
+
+High-volume vegetables
+
+Support-only training (no heavy lifting) 
+
+
+Timeline Summary You stacked a strong execution day immediately after measurement concern. Waist trends remain stable-to-improving and adherence stayed high. Current pace still supports approximately 5–8 weeks toward your 155 lb base target.
+
+App Parse Block
+
+Status: Pass
+Weight: 163.4
+Abdomen (navel): 31.32
++2": 30.36
+Below: 31.25
+Sleep: 6h 38m
+Calories: 1860
+Protein: 220g
+Daily Adherence Score: 96
+Boss Mode: none
+Boss Name: null
+Boss Outcome: none
