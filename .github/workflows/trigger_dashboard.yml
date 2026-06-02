@@ -18,7 +18,7 @@ jobs:
           DASHBOARD_PAT: ${{ secrets.DASHBOARD_PAT }}
         run: |
           if [ -z "$DASHBOARD_PAT" ]; then
-            echo "::error::Missing DASHBOARD_PAT secret. Add a classic PAT with repo access to Automatic365/weight_cut_dashboard."
+            echo "::error::Missing DASHBOARD_PAT secret. Add a classic PAT with repo access to Automatic365/weight-cut-tracker."
             exit 1
           fi
 
@@ -28,14 +28,14 @@ jobs:
         uses: peter-evans/repository-dispatch@v4
         with:
           token: ${{ secrets.DASHBOARD_PAT }}
-          repository: Automatic365/weight_cut_dashboard
+          repository: Automatic365/weight-cut-tracker
           event-type: update_logs
           client-payload: '{"source_repo":"${{ github.repository }}","source_sha":"${{ github.sha }}","source_ref":"${{ github.ref }}","source_path":"daily_log.md","source_run_id":"${{ github.run_id }}"}'
 
       - name: Fail with credential guidance
         if: steps.dispatch.outcome != 'success'
         run: |
-          echo "::error::Repository dispatch failed. Rotate DASHBOARD_PAT and verify repo scope + org access for Automatic365/weight_cut_dashboard."
+          echo "::error::Repository dispatch failed. Rotate DASHBOARD_PAT and verify repo scope + org access for Automatic365/weight-cut-tracker."
           echo "::error::Expected outcome: this workflow should create a repository_dispatch run in weight_cut_dashboard immediately."
           exit 1
 
