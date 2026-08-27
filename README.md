@@ -1,26 +1,24 @@
 # Combat Nutrition Log Updater v1
 
-A password-protected Next.js app that lets you paste a full daily markdown entry, update `daily_log.md`, and commit directly to GitHub `main`.
+A password-protected Next.js app for reviewing a conversation-prefilled nightly record, then updating `daily_log.md` on GitHub `main` only after explicit confirmation.
 
 ## Features
 
 - Password-protected UI for single-user write access
-- Date picker to choose which day the entry applies to
-- Accepts entries with or without `## YYYY-MM-DD — ...` header
-- Auto-prepends `## YYYY-MM-DD — Day` from selected date when missing
+- Compact, editable checklist for the canonical App Parse Block fields
+- Conversation prefill through the documented `draft` handoff
+- Missing and uncertain values are highlighted and serialized as `unknown`, never invented
+- Client confirmation checkbox plus server-side confirmation enforcement
 - Replaces existing date entry, or appends if date is new
 - Commits to GitHub via Contents API
 - Retries once on GitHub write conflict
 - Structured submit response with commit SHA and URL
 
-## Logging Sync Rule
+## Data Flow
 
-All future manual log updates must be written to both files:
+`daily_log.md` is the one canonical source for this workflow. Its existing GitHub workflow dispatches the dashboard rebuild automatically. The updater does not create or maintain a second dashboard data path.
 
-- `daily_log.md` (full narrative source of truth)
-- `logs/app_parse_blocks_complete.md` (LLM-friendly parse-block ledger)
-
-If a day is updated in one file, the same day must be updated in the other file in the same change.
+See [`docs/goodnight-workflow.md`](docs/goodnight-workflow.md) for the conversation handoff and approval contract.
 
 ## Environment Variables
 
@@ -66,8 +64,9 @@ npm run build
 
 ## Manual Smoke Checklist
 
-1. Log in with `APP_PASSWORD`.
-2. Pick an entry date, paste an entry block (header optional), and submit.
-3. Confirm response includes date, action, commit SHA/link, and timestamp.
-4. Confirm commit appears on `main` and modifies only `daily_log.md`.
-5. Confirm existing workflow `.github/workflows/trigger_dashboard.yml` runs after commit.
+1. Log in with `APP_PASSWORD` and open a conversation-prefilled draft.
+2. Correct the compact checklist and verify missing values are highlighted.
+3. Verify no request writes until the confirmation checkbox is selected.
+4. Confirm response includes date, action, commit SHA/link, and timestamp.
+5. Confirm commit appears on `main` and modifies only `daily_log.md`.
+6. Confirm existing workflow `.github/workflows/trigger_dashboard.yml` runs after commit.

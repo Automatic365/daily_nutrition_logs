@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { isAuthorizedRequest } from "@/lib/auth";
+import { buildCanonicalDailyRecord, emptyDailyRecordDraft, inspectDailyRecordDraft } from "@/lib/dailyRecord";
 import { isConflictError, readDailyLogFile, writeDailyLogFile } from "@/lib/github";
 import { parseAndNormalizeEntry, upsertDailyLogEntry } from "@/lib/logParser";
 import type { SubmitLogRequest, SubmitLogResponse, UpdateAction } from "@/lib/types";
@@ -11,19 +12,24 @@ function parseBody(body: unknown): SubmitLogRequest {
     throw new Error("Request body must be an object.");
   }
 
-  const { markdown, entryDate } = body as { markdown?: unknown; entryDate?: unknown };
+  const { draft, confirmed } = body as { draft?: unknown; confirmed?: unknown };
 
-  if (typeof markdown !== "string") {
-    throw new Error("Field `markdown` must be a string.");
+  if (confirmed !== true) {
+    throw new Error("Explicit confirmation is required before writing the daily log.");
   }
 
-  if (entryDate !== undefined && typeof entryDate !== "string") {
-    throw new Error("Field `entryDate` must be a string.");
+  if (!draft || typeof draft !== "object") {
+    throw new Error("Field `draft` must be an object.");
   }
 
-  const sanitizedEntryDate = entryDate?.trim() || undefined;
+  const candidate = draft as Record<string, unknown>;
+  for (const field of Object.keys(emptyDailyRecordDraft())) {
+    if (typeof candidate[field] !== "string") {
+      throw new Error(`Draft field \`${field}\` must be a string.`);
+    }
+  }
 
-  return { markdown, entryDate: sanitizedEntryDate };
+  return { draft: draft as SubmitLogRequest["draft"], confirmed: true };
 }
 
 export async function POST(request: Request) {
@@ -46,7 +52,11 @@ export async function POST(request: Request) {
   let normalizedEntry: string;
 
   try {
-    const parsed = parseAndNormalizeEntry(payload.markdown, payload.entryDate);
+    const issues = inspectDailyRecordDraft(payload.draft);
+    if (issues.some((issue) => issue.severity === "invalid")) {
+      throw new Error("Correct invalid values before confirming the daily record.");
+    }
+    const parsed = parseAndNormalizeEntry(buildCanonicalDailyRecord(payload.draft), payload.draft.entryDate);
     date = parsed.date;
     normalizedEntry = parsed.entry;
   } catch (error) {

@@ -1,8 +1,10 @@
+import type { DailyRecordDraft, DraftIssue } from "@/lib/dailyRecord";
+
 export type UpdateAction = "replaced" | "appended";
 
 export interface SubmitLogRequest {
-  markdown: string;
-  entryDate?: string;
+  draft: DailyRecordDraft;
+  confirmed: true;
 }
 
 export interface SubmitLogResponse {
@@ -12,4 +14,9 @@ export interface SubmitLogResponse {
   commitUrl: string;
   committedAt: string;
   message: string;
+}
+
+export interface PreviewLogResponse {
+  markdown: string;
+  issues: DraftIssue[];
 }

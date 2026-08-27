@@ -17,8 +17,22 @@ vi.mock("@/lib/github", () => ({
 
 import { POST } from "@/app/api/logs/submit/route";
 
-const validMarkdown = "## 2026-03-06 — Friday\n\n### Tier\nTier 1";
-const bodyOnlyMarkdown = "### Tier\nTier 1";
+const validDraft = {
+  entryDate: "2026-03-06",
+  status: "Pass",
+  weight: "160",
+  abdomenNavel: "31.5",
+  waistPlus2: "30.8",
+  waistMinus2: "31.9",
+  sleep: "7h 05m",
+  calories: "1650",
+  protein: "195",
+  fast: "false",
+  adherenceScore: "95",
+  bossMode: "none",
+  bossName: "",
+  bossOutcome: "none"
+};
 
 describe("POST /api/logs/submit", () => {
   beforeEach(() => {
@@ -36,7 +50,7 @@ describe("POST /api/logs/submit", () => {
     const response = await POST(
       new Request("http://localhost/api/logs/submit", {
         method: "POST",
-        body: JSON.stringify({ markdown: validMarkdown })
+        body: JSON.stringify({ draft: validDraft, confirmed: true })
       })
     );
 
@@ -59,7 +73,7 @@ describe("POST /api/logs/submit", () => {
     const response = await POST(
       new Request("http://localhost/api/logs/submit", {
         method: "POST",
-        body: JSON.stringify({ markdown: validMarkdown, entryDate: "2026-03-06" })
+        body: JSON.stringify({ draft: validDraft, confirmed: true })
       })
     );
 
@@ -71,40 +85,13 @@ describe("POST /api/logs/submit", () => {
     expect(mockWriteDailyLogFile).toHaveBeenCalledTimes(1);
   });
 
-  it("prepends selected-date header when missing", async () => {
-    mockIsAuthorizedRequest.mockReturnValue(true);
-    mockReadDailyLogFile.mockResolvedValue({
-      content: "## 2026-03-05 — Thursday\n\n### Tier\nTier 2\n",
-      sha: "sha-one"
-    });
-    mockWriteDailyLogFile.mockResolvedValue({
-      commitSha: "headeradded123",
-      commitUrl: "https://github.com/example/repo/commit/headeradded123"
-    });
-    mockIsConflictError.mockReturnValue(false);
-
-    const response = await POST(
-      new Request("http://localhost/api/logs/submit", {
-        method: "POST",
-        body: JSON.stringify({ markdown: bodyOnlyMarkdown, entryDate: "2026-03-10" })
-      })
-    );
-
-    const payload = (await response.json()) as { date?: string; action?: string };
-
-    expect(response.status).toBe(200);
-    expect(payload.date).toBe("2026-03-10");
-    expect(payload.action).toBe("appended");
-    expect(mockWriteDailyLogFile).toHaveBeenCalledTimes(1);
-  });
-
-  it("rejects invalid selected-date format", async () => {
+  it("rejects a request without explicit confirmation", async () => {
     mockIsAuthorizedRequest.mockReturnValue(true);
 
     const response = await POST(
       new Request("http://localhost/api/logs/submit", {
         method: "POST",
-        body: JSON.stringify({ markdown: bodyOnlyMarkdown, entryDate: "03-10-2026" })
+        body: JSON.stringify({ draft: validDraft, confirmed: false })
       })
     );
 
@@ -137,7 +124,7 @@ describe("POST /api/logs/submit", () => {
     const response = await POST(
       new Request("http://localhost/api/logs/submit", {
         method: "POST",
-        body: JSON.stringify({ markdown: validMarkdown })
+        body: JSON.stringify({ draft: validDraft, confirmed: true })
       })
     );
 
@@ -159,7 +146,7 @@ describe("POST /api/logs/submit", () => {
     const response = await POST(
       new Request("http://localhost/api/logs/submit", {
         method: "POST",
-        body: JSON.stringify({ markdown: validMarkdown })
+        body: JSON.stringify({ draft: validDraft, confirmed: true })
       })
     );
 

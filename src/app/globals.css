@@ -74,12 +74,14 @@ label {
 }
 
 input,
+select,
 textarea,
 button {
   font: inherit;
 }
 
 input,
+select,
 textarea {
   width: 100%;
   border: 1px solid var(--border);
@@ -87,6 +89,20 @@ textarea {
   padding: 0.7rem 0.8rem;
   background: #fff;
 }
+
+.eyebrow { margin: 0 0 0.2rem; color: var(--accent-strong); font-size: 0.75rem; font-weight: 800; letter-spacing: 0.11em; text-transform: uppercase; }
+.intro { margin-top: 0.85rem; }
+fieldset { border: 0; margin: 0; padding: 0; }
+.field-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0.65rem; padding-top: 0.7rem; border-top: 1px solid #ece6da; }
+.field { display: grid; align-content: start; gap: 0.35rem; font-size: 0.82rem; }
+.field input, .field select { min-height: 42px; }
+.field small { color: #8a5a13; font-weight: 500; line-height: 1.25; }
+.field.issue-missing input, .field.issue-missing select { border-color: #d8a44b; background: #fffaf0; }
+.field.issue-invalid input, .field.issue-invalid select { border-color: var(--error); background: #fff5f4; }
+.field.issue-invalid small { color: var(--error); }
+.review-alert { border-radius: 10px; padding: 0.7rem 0.8rem; background: #fff6e5; color: #6f4811; font-size: 0.88rem; }
+.confirmation { display: flex; align-items: flex-start; gap: 0.65rem; padding: 0.8rem; border: 1px solid var(--border); border-radius: 10px; background: #f8f6f1; }
+.confirmation input { width: 1.1rem; margin-top: 0.1rem; }
 
 textarea {
   resize: vertical;
@@ -153,4 +169,10 @@ a {
     flex-direction: column;
     align-items: stretch;
   }
+
+  .field-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 430px) {
+  .field-grid { grid-template-columns: 1fr; }
 }
