@@ -14611,3 +14611,24 @@ Daily Adherence Score: 95
 Boss Mode: none
 Boss Name: null
 Boss Outcome: none
+
+## 2026-08-27 — Thursday
+
+Hydration: 120 oz
+
+Training: Muay Thai completed
+
+### App Parse Block
+Status: Pass
+Weight: 162.3
+Abdomen (navel): 32.13
++2": 30.90
+Below: 32.07
+Sleep: 6h 47m
+Calories: 2160
+Protein: 172g
+Fast: false
+Daily Adherence Score: 96
+Boss Mode: none
+Boss Name: null
+Boss Outcome: none
